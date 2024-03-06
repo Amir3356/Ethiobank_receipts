@@ -5,3 +5,4 @@ Contribution update at 2024-03-04T09:20:26 - chore: remove old python crawler sc
 Contribution update at 2024-03-05T10:07:43 - fix: improve regex pattern for transaction reference IDs
 Contribution update at 2024-03-05T20:58:05 - docs: update README with supported bank formats
 Contribution update at 2024-03-06T09:00:05 - test: add unit tests for Awash bank extractor
+Contribution update at 2024-03-06T17:21:54 - feat: add loading spinners for extraction process
