@@ -9,3 +9,4 @@ Contribution update at 2024-03-06T17:21:54 - feat: add loading spinners for extr
 Contribution update at 2024-03-06T20:58:32 - refactor: clean up receipt form validation
 Contribution update at 2024-03-07T11:35:14 - refactor: clean up receipt form validation
 Contribution update at 2024-03-08T11:49:15 - docs: add setup instructions for local development
+Contribution update at 2024-03-08T09:07:59 - perf: optimize image preprocessing before OCR extraction
