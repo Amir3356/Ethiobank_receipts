@@ -15,3 +15,4 @@ Contribution update at 2024-03-08T14:01:52 - feat: implement image upload parsin
 Contribution update at 2024-03-10T12:48:44 - feat: add support for Dashen Bank receipt formats
 Contribution update at 2024-03-10T09:17:17 - test: add sample receipts test fixtures
 Contribution update at 2024-03-11T20:03:25 - feat: add Bank of Abyssinia (BOA) receipt parser
+Contribution update at 2024-03-11T13:46:39 - feat: add Bank of Abyssinia (BOA) receipt parser
