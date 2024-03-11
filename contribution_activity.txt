@@ -14,3 +14,4 @@ Contribution update at 2024-03-08T18:01:58 - chore: remove old python crawler sc
 Contribution update at 2024-03-08T14:01:52 - feat: implement image upload parsing logic
 Contribution update at 2024-03-10T12:48:44 - feat: add support for Dashen Bank receipt formats
 Contribution update at 2024-03-10T09:17:17 - test: add sample receipts test fixtures
+Contribution update at 2024-03-11T20:03:25 - feat: add Bank of Abyssinia (BOA) receipt parser
