@@ -16,3 +16,4 @@ Contribution update at 2024-03-10T12:48:44 - feat: add support for Dashen Bank r
 Contribution update at 2024-03-10T09:17:17 - test: add sample receipts test fixtures
 Contribution update at 2024-03-11T20:03:25 - feat: add Bank of Abyssinia (BOA) receipt parser
 Contribution update at 2024-03-11T13:46:39 - feat: add Bank of Abyssinia (BOA) receipt parser
+Contribution update at 2024-03-11T10:13:35 - style: improve ReceiptCard component layout
