@@ -18,3 +18,4 @@ Contribution update at 2024-03-11T20:03:25 - feat: add Bank of Abyssinia (BOA) r
 Contribution update at 2024-03-11T13:46:39 - feat: add Bank of Abyssinia (BOA) receipt parser
 Contribution update at 2024-03-11T10:13:35 - style: improve ReceiptCard component layout
 Contribution update at 2024-03-12T17:19:23 - fix: correct CORS headers for API requests
+Contribution update at 2024-03-12T19:07:04 - test: add sample receipts test fixtures
