@@ -22,3 +22,4 @@ Contribution update at 2024-03-12T19:07:04 - test: add sample receipts test fixt
 Contribution update at 2024-03-12T12:06:18 - feat: update Telebirr extractor logic
 Contribution update at 2024-03-12T15:16:15 - style: improve responsive view on mobile screens
 Contribution update at 2024-03-13T15:32:17 - refactor: extract date parsing logic into shared utility
+Contribution update at 2024-03-13T14:24:45 - feat: update Telebirr extractor logic
