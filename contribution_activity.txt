@@ -36,3 +36,4 @@ Contribution update at 2024-03-22T19:11:26 - chore: update package-lock.json
 Contribution update at 2024-03-23T20:50:32 - feat: implement image upload parsing logic
 Contribution update at 2024-03-23T09:52:16 - docs: update API documentation for extraction routes
 Contribution update at 2024-03-23T18:33:54 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-03-23T09:58:13 - fix: resolve memory leak in extractor
