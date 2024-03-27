@@ -38,3 +38,4 @@ Contribution update at 2024-03-23T09:52:16 - docs: update API documentation for 
 Contribution update at 2024-03-23T18:33:54 - feat: add support for Dashen Bank receipt formats
 Contribution update at 2024-03-23T09:58:13 - fix: resolve memory leak in extractor
 Contribution update at 2024-03-27T21:19:42 - chore: update React and Vite dependencies
+Contribution update at 2024-03-27T16:52:47 - perf: optimize image preprocessing before OCR extraction
