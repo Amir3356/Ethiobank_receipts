@@ -47,3 +47,4 @@ Contribution update at 2024-04-03T16:42:25 - test: verify receipt controller res
 Contribution update at 2024-04-03T10:55:56 - refactor: modularize frontend API service
 Contribution update at 2024-04-03T12:20:36 - style: improve responsive view on mobile screens
 Contribution update at 2024-04-03T21:59:11 - test: add unit tests for Awash bank extractor
+Contribution update at 2024-04-03T10:54:50 - feat: add support for Dashen Bank receipt formats
