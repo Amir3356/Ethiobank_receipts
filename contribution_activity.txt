@@ -51,3 +51,4 @@ Contribution update at 2024-04-03T10:54:50 - feat: add support for Dashen Bank r
 Contribution update at 2024-04-03T12:19:59 - test: verify receipt controller response formats
 Contribution update at 2024-04-04T16:48:07 - fix: resolve memory leak in extractor
 Contribution update at 2024-04-04T11:13:41 - test: verify receipt controller response formats
+Contribution update at 2024-04-04T20:50:30 - fix: correctly parse dates from Zemen bank receipts
