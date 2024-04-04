@@ -49,3 +49,4 @@ Contribution update at 2024-04-03T12:20:36 - style: improve responsive view on m
 Contribution update at 2024-04-03T21:59:11 - test: add unit tests for Awash bank extractor
 Contribution update at 2024-04-03T10:54:50 - feat: add support for Dashen Bank receipt formats
 Contribution update at 2024-04-03T12:19:59 - test: verify receipt controller response formats
+Contribution update at 2024-04-04T16:48:07 - fix: resolve memory leak in extractor
