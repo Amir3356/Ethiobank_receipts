@@ -53,3 +53,4 @@ Contribution update at 2024-04-04T16:48:07 - fix: resolve memory leak in extract
 Contribution update at 2024-04-04T11:13:41 - test: verify receipt controller response formats
 Contribution update at 2024-04-04T20:50:30 - fix: correctly parse dates from Zemen bank receipts
 Contribution update at 2024-04-04T10:04:09 - refactor: clean up receipt form validation
+Contribution update at 2024-04-05T20:56:51 - docs: update README with supported bank formats
