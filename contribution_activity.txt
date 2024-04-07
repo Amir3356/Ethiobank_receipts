@@ -55,3 +55,4 @@ Contribution update at 2024-04-04T20:50:30 - fix: correctly parse dates from Zem
 Contribution update at 2024-04-04T10:04:09 - refactor: clean up receipt form validation
 Contribution update at 2024-04-05T20:56:51 - docs: update README with supported bank formats
 Contribution update at 2024-04-05T10:01:44 - refactor: reorganize backend services and utils
+Contribution update at 2024-04-07T18:41:57 - fix: resolve memory leak in extractor
