@@ -58,3 +58,4 @@ Contribution update at 2024-04-05T10:01:44 - refactor: reorganize backend servic
 Contribution update at 2024-04-07T18:41:57 - fix: resolve memory leak in extractor
 Contribution update at 2024-04-07T12:56:06 - docs: add setup instructions for local development
 Contribution update at 2024-04-08T10:17:08 - refactor: clean up receipt form validation
+Contribution update at 2024-04-09T19:35:21 - fix: correctly parse dates from Zemen bank receipts
