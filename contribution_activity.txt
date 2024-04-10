@@ -64,3 +64,4 @@ Contribution update at 2024-04-10T15:02:33 - perf: optimize image preprocessing 
 Contribution update at 2024-04-10T18:20:04 - style: improve responsive view on mobile screens
 Contribution update at 2024-04-10T11:28:15 - feat: handle multi-page PDF receipts
 Contribution update at 2024-04-10T11:02:46 - feat: update Telebirr extractor logic
+Contribution update at 2024-04-10T20:01:42 - feat: add support for Dashen Bank receipt formats
