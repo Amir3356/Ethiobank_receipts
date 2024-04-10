@@ -60,3 +60,4 @@ Contribution update at 2024-04-07T12:56:06 - docs: add setup instructions for lo
 Contribution update at 2024-04-08T10:17:08 - refactor: clean up receipt form validation
 Contribution update at 2024-04-09T19:35:21 - fix: correctly parse dates from Zemen bank receipts
 Contribution update at 2024-04-10T15:47:06 - fix: resolve edge case with blurry Telebirr screenshots
+Contribution update at 2024-04-10T15:02:33 - perf: optimize image preprocessing before OCR extraction
