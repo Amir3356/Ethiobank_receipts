@@ -66,3 +66,4 @@ Contribution update at 2024-04-10T11:28:15 - feat: handle multi-page PDF receipt
 Contribution update at 2024-04-10T11:02:46 - feat: update Telebirr extractor logic
 Contribution update at 2024-04-10T20:01:42 - feat: add support for Dashen Bank receipt formats
 Contribution update at 2024-04-11T17:26:12 - docs: update API documentation for extraction routes
+Contribution update at 2024-04-11T20:27:12 - feat: handle multi-page PDF receipts
