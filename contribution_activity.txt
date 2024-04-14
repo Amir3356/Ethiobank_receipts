@@ -70,3 +70,4 @@ Contribution update at 2024-04-11T20:27:12 - feat: handle multi-page PDF receipt
 Contribution update at 2024-04-11T20:04:13 - perf: optimize image preprocessing before OCR extraction
 Contribution update at 2024-04-14T13:38:22 - fix: trim extra whitespace in account holder names
 Contribution update at 2024-04-14T18:14:31 - refactor: simplify backend controller error handling
+Contribution update at 2024-04-14T16:03:19 - docs: update README with supported bank formats
