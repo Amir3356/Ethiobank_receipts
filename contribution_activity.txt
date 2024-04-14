@@ -68,3 +68,4 @@ Contribution update at 2024-04-10T20:01:42 - feat: add support for Dashen Bank r
 Contribution update at 2024-04-11T17:26:12 - docs: update API documentation for extraction routes
 Contribution update at 2024-04-11T20:27:12 - feat: handle multi-page PDF receipts
 Contribution update at 2024-04-11T20:04:13 - perf: optimize image preprocessing before OCR extraction
+Contribution update at 2024-04-14T13:38:22 - fix: trim extra whitespace in account holder names
