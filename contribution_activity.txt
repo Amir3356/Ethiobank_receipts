@@ -74,3 +74,4 @@ Contribution update at 2024-04-14T16:03:19 - docs: update README with supported 
 Contribution update at 2024-04-14T19:22:29 - fix: improve regex pattern for transaction reference IDs
 Contribution update at 2024-04-15T11:54:58 - test: add unit tests for Awash bank extractor
 Contribution update at 2024-04-15T20:32:02 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-04-15T16:50:51 - fix: resolve memory leak in extractor
