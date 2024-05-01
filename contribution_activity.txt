@@ -81,3 +81,4 @@ Contribution update at 2024-04-30T13:53:13 - refactor: simplify backend controll
 Contribution update at 2024-05-01T14:37:40 - feat: add loading spinners for extraction process
 Contribution update at 2024-05-01T14:21:58 - chore: update package-lock.json
 Contribution update at 2024-05-01T18:43:15 - feat: add Bank of Abyssinia (BOA) receipt parser
+Contribution update at 2024-05-01T12:31:40 - feat: support Hibret Bank transaction screenshots
