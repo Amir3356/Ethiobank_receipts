@@ -82,3 +82,4 @@ Contribution update at 2024-05-01T14:37:40 - feat: add loading spinners for extr
 Contribution update at 2024-05-01T14:21:58 - chore: update package-lock.json
 Contribution update at 2024-05-01T18:43:15 - feat: add Bank of Abyssinia (BOA) receipt parser
 Contribution update at 2024-05-01T12:31:40 - feat: support Hibret Bank transaction screenshots
+Contribution update at 2024-05-01T11:21:45 - fix: correct CORS headers for API requests
