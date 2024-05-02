@@ -89,3 +89,4 @@ Contribution update at 2024-05-02T13:36:24 - feat: update Telebirr extractor log
 Contribution update at 2024-05-02T20:02:02 - chore: remove old python crawler scripts
 Contribution update at 2024-05-02T17:20:10 - style: improve responsive view on mobile screens
 Contribution update at 2024-05-02T10:50:20 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-02T18:28:31 - style: improve responsive view on mobile screens
