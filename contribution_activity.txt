@@ -84,3 +84,4 @@ Contribution update at 2024-05-01T18:43:15 - feat: add Bank of Abyssinia (BOA) r
 Contribution update at 2024-05-01T12:31:40 - feat: support Hibret Bank transaction screenshots
 Contribution update at 2024-05-01T11:21:45 - fix: correct CORS headers for API requests
 Contribution update at 2024-05-01T18:41:17 - feat: handle multi-page PDF receipts
+Contribution update at 2024-05-02T16:03:44 - docs: update API documentation for extraction routes
