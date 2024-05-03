@@ -94,3 +94,4 @@ Contribution update at 2024-05-02T14:31:05 - feat: add support for Dashen Bank r
 Contribution update at 2024-05-03T12:44:07 - fix: improve regex pattern for transaction reference IDs
 Contribution update at 2024-05-03T11:01:08 - feat: add loading spinners for extraction process
 Contribution update at 2024-05-03T17:34:31 - chore: remove old python crawler scripts
+Contribution update at 2024-05-03T20:20:32 - docs: add comments to complex regex patterns
