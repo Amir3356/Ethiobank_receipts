@@ -102,3 +102,4 @@ Contribution update at 2024-05-04T15:19:02 - fix: correct CORS headers for API r
 Contribution update at 2024-05-06T15:47:20 - fix: handle missing reference numbers in CBE receipts
 Contribution update at 2024-05-06T15:26:35 - style: improve ReceiptCard component layout
 Contribution update at 2024-05-06T12:24:10 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-05-06T20:18:09 - feat: update Telebirr extractor logic
