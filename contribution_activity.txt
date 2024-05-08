@@ -105,3 +105,4 @@ Contribution update at 2024-05-06T12:24:10 - feat: add support for Dashen Bank r
 Contribution update at 2024-05-06T20:18:09 - feat: update Telebirr extractor logic
 Contribution update at 2024-05-08T14:39:55 - chore: update package-lock.json
 Contribution update at 2024-05-08T10:27:37 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-08T15:00:46 - fix: resolve edge case with blurry Telebirr screenshots
