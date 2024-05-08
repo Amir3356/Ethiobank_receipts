@@ -109,3 +109,4 @@ Contribution update at 2024-05-08T15:00:46 - fix: resolve edge case with blurry 
 Contribution update at 2024-05-08T11:09:20 - test: verify receipt controller response formats
 Contribution update at 2024-05-08T15:08:22 - refactor: simplify backend controller error handling
 Contribution update at 2024-05-08T15:08:50 - fix: resolve edge case with blurry Telebirr screenshots
+Contribution update at 2024-05-08T21:13:52 - docs: update README with supported bank formats
