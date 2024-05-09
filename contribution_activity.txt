@@ -112,3 +112,4 @@ Contribution update at 2024-05-08T15:08:50 - fix: resolve edge case with blurry 
 Contribution update at 2024-05-08T21:13:52 - docs: update README with supported bank formats
 Contribution update at 2024-05-09T17:45:37 - refactor: modularize frontend API service
 Contribution update at 2024-05-09T14:31:29 - refactor: simplify backend controller error handling
+Contribution update at 2024-05-09T16:29:12 - fix: resolve memory leak in extractor
