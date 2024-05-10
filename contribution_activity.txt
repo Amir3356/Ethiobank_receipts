@@ -113,3 +113,4 @@ Contribution update at 2024-05-08T21:13:52 - docs: update README with supported 
 Contribution update at 2024-05-09T17:45:37 - refactor: modularize frontend API service
 Contribution update at 2024-05-09T14:31:29 - refactor: simplify backend controller error handling
 Contribution update at 2024-05-09T16:29:12 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-10T10:05:55 - refactor: simplify backend controller error handling
