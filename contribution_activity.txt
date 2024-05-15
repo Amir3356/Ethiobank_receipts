@@ -120,3 +120,4 @@ Contribution update at 2024-05-14T21:06:48 - refactor: reorganize backend servic
 Contribution update at 2024-05-14T14:16:04 - style: improve ReceiptCard component layout
 Contribution update at 2024-05-14T18:04:25 - perf: optimize image preprocessing before OCR extraction
 Contribution update at 2024-05-14T10:01:06 - feat: implement image upload parsing logic
+Contribution update at 2024-05-15T18:40:12 - refactor: reorganize backend services and utils
