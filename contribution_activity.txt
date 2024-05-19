@@ -124,3 +124,4 @@ Contribution update at 2024-05-15T18:40:12 - refactor: reorganize backend servic
 Contribution update at 2024-05-19T09:28:52 - fix: resolve memory leak in extractor
 Contribution update at 2024-05-19T21:42:57 - feat: add Bank of Abyssinia (BOA) receipt parser
 Contribution update at 2024-05-19T10:06:19 - feat: handle multi-page PDF receipts
+Contribution update at 2024-05-19T10:05:20 - docs: update README with supported bank formats
