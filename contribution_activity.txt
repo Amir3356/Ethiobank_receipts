@@ -128,3 +128,4 @@ Contribution update at 2024-05-19T10:05:20 - docs: update README with supported 
 Contribution update at 2024-05-21T20:04:41 - test: add unit tests for Awash bank extractor
 Contribution update at 2024-05-21T11:10:47 - style: improve ReceiptCard component layout
 Contribution update at 2024-05-21T21:34:29 - refactor: reorganize backend services and utils
+Contribution update at 2024-05-22T18:15:51 - fix: handle missing reference numbers in CBE receipts
