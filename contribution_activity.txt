@@ -133,3 +133,4 @@ Contribution update at 2024-05-22T21:30:00 - refactor: modularize frontend API s
 Contribution update at 2024-05-27T12:47:50 - perf: optimize image preprocessing before OCR extraction
 Contribution update at 2024-05-30T17:58:54 - refactor: clean up receipt form validation
 Contribution update at 2024-05-31T15:21:17 - test: verify receipt controller response formats
+Contribution update at 2024-05-31T10:55:52 - feat: add loading spinners for extraction process
