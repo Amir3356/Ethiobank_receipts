@@ -136,3 +136,4 @@ Contribution update at 2024-05-31T15:21:17 - test: verify receipt controller res
 Contribution update at 2024-05-31T10:55:52 - feat: add loading spinners for extraction process
 Contribution update at 2024-05-31T13:22:09 - docs: add setup instructions for local development
 Contribution update at 2024-05-31T15:37:14 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-06-03T12:34:38 - fix: correctly parse dates from Zemen bank receipts
