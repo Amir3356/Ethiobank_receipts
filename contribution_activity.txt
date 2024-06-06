@@ -139,3 +139,4 @@ Contribution update at 2024-05-31T15:37:14 - feat: add support for Dashen Bank r
 Contribution update at 2024-06-03T12:34:38 - fix: correctly parse dates from Zemen bank receipts
 Contribution update at 2024-06-03T20:43:53 - refactor: clean up receipt form validation
 Contribution update at 2024-06-05T10:35:55 - fix: handle missing reference numbers in CBE receipts
+Contribution update at 2024-06-06T20:40:12 - fix: resolve memory leak in extractor
