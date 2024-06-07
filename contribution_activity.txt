@@ -141,3 +141,4 @@ Contribution update at 2024-06-03T20:43:53 - refactor: clean up receipt form val
 Contribution update at 2024-06-05T10:35:55 - fix: handle missing reference numbers in CBE receipts
 Contribution update at 2024-06-06T20:40:12 - fix: resolve memory leak in extractor
 Contribution update at 2024-06-06T20:37:04 - chore: update package-lock.json
+Contribution update at 2024-06-07T20:16:58 - style: improve responsive view on mobile screens
