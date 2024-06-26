@@ -158,3 +158,4 @@ Contribution update at 2024-06-25T19:47:30 - docs: update API documentation for 
 Contribution update at 2024-06-25T16:11:35 - perf: optimize image preprocessing before OCR extraction
 Contribution update at 2024-06-25T17:14:22 - feat: support Hibret Bank transaction screenshots
 Contribution update at 2024-06-25T09:43:30 - feat: support Hibret Bank transaction screenshots
+Contribution update at 2024-06-26T10:00:53 - docs: add setup instructions for local development
