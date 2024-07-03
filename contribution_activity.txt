@@ -170,3 +170,4 @@ Contribution update at 2024-07-02T10:46:50 - style: improve responsive view on m
 Contribution update at 2024-07-02T10:42:05 - feat: add loading spinners for extraction process
 Contribution update at 2024-07-02T20:07:38 - test: add unit tests for Awash bank extractor
 Contribution update at 2024-07-03T20:00:57 - refactor: extract date parsing logic into shared utility
+Contribution update at 2024-07-03T12:48:52 - docs: update API documentation for extraction routes
