@@ -175,3 +175,4 @@ Contribution update at 2024-07-03T09:39:52 - style: improve ReceiptCard componen
 Contribution update at 2024-07-03T10:29:04 - refactor: clean up receipt form validation
 Contribution update at 2024-07-04T17:20:05 - style: improve responsive view on mobile screens
 Contribution update at 2024-07-04T20:40:04 - refactor: clean up receipt form validation
+Contribution update at 2024-07-04T18:41:23 - chore: remove old python crawler scripts
