@@ -184,3 +184,4 @@ Contribution update at 2024-07-08T11:07:29 - docs: add comments to complex regex
 Contribution update at 2024-07-12T21:57:08 - chore: update package-lock.json
 Contribution update at 2024-07-12T21:38:04 - feat: add Bank of Abyssinia (BOA) receipt parser
 Contribution update at 2024-07-12T11:23:23 - refactor: modularize frontend API service
+Contribution update at 2024-07-12T17:17:33 - fix: trim extra whitespace in account holder names
