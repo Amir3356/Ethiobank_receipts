@@ -186,3 +186,4 @@ Contribution update at 2024-07-12T21:38:04 - feat: add Bank of Abyssinia (BOA) r
 Contribution update at 2024-07-12T11:23:23 - refactor: modularize frontend API service
 Contribution update at 2024-07-12T17:17:33 - fix: trim extra whitespace in account holder names
 Contribution update at 2024-07-15T09:36:10 - fix: correct CORS headers for API requests
+Contribution update at 2024-07-15T21:43:48 - feat: handle multi-page PDF receipts
