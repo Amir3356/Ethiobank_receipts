@@ -187,3 +187,4 @@ Contribution update at 2024-07-12T11:23:23 - refactor: modularize frontend API s
 Contribution update at 2024-07-12T17:17:33 - fix: trim extra whitespace in account holder names
 Contribution update at 2024-07-15T09:36:10 - fix: correct CORS headers for API requests
 Contribution update at 2024-07-15T21:43:48 - feat: handle multi-page PDF receipts
+Contribution update at 2024-07-16T09:15:13 - refactor: extract date parsing logic into shared utility
