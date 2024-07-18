@@ -190,3 +190,4 @@ Contribution update at 2024-07-15T21:43:48 - feat: handle multi-page PDF receipt
 Contribution update at 2024-07-16T09:15:13 - refactor: extract date parsing logic into shared utility
 Contribution update at 2024-07-16T15:07:43 - test: add unit tests for Awash bank extractor
 Contribution update at 2024-07-17T19:46:35 - fix: correct CORS headers for API requests
+Contribution update at 2024-07-18T13:43:04 - docs: update API documentation for extraction routes
