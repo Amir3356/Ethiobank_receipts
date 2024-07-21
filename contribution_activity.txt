@@ -192,3 +192,4 @@ Contribution update at 2024-07-16T15:07:43 - test: add unit tests for Awash bank
 Contribution update at 2024-07-17T19:46:35 - fix: correct CORS headers for API requests
 Contribution update at 2024-07-18T13:43:04 - docs: update API documentation for extraction routes
 Contribution update at 2024-07-18T14:58:02 - feat: update Telebirr extractor logic
+Contribution update at 2024-07-21T20:05:51 - fix: trim extra whitespace in account holder names
