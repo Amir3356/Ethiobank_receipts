@@ -193,3 +193,4 @@ Contribution update at 2024-07-17T19:46:35 - fix: correct CORS headers for API r
 Contribution update at 2024-07-18T13:43:04 - docs: update API documentation for extraction routes
 Contribution update at 2024-07-18T14:58:02 - feat: update Telebirr extractor logic
 Contribution update at 2024-07-21T20:05:51 - fix: trim extra whitespace in account holder names
+Contribution update at 2024-07-21T20:00:37 - refactor: simplify backend controller error handling
