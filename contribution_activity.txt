@@ -194,3 +194,4 @@ Contribution update at 2024-07-18T13:43:04 - docs: update API documentation for 
 Contribution update at 2024-07-18T14:58:02 - feat: update Telebirr extractor logic
 Contribution update at 2024-07-21T20:05:51 - fix: trim extra whitespace in account holder names
 Contribution update at 2024-07-21T20:00:37 - refactor: simplify backend controller error handling
+Contribution update at 2024-07-21T18:19:39 - refactor: simplify backend controller error handling
