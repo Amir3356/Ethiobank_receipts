@@ -202,3 +202,4 @@ Contribution update at 2024-07-22T11:20:25 - refactor: simplify backend controll
 Contribution update at 2024-07-25T11:17:29 - docs: add comments to complex regex patterns
 Contribution update at 2024-07-25T13:29:51 - feat: add loading spinners for extraction process
 Contribution update at 2024-07-25T21:56:11 - fix: correctly parse dates from Zemen bank receipts
+Contribution update at 2024-07-25T14:54:47 - fix: correct CORS headers for API requests
