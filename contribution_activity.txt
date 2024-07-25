@@ -199,3 +199,4 @@ Contribution update at 2024-07-21T17:27:39 - fix: resolve edge case with blurry 
 Contribution update at 2024-07-22T13:55:25 - refactor: reorganize backend services and utils
 Contribution update at 2024-07-22T12:54:32 - docs: update README with supported bank formats
 Contribution update at 2024-07-22T11:20:25 - refactor: simplify backend controller error handling
+Contribution update at 2024-07-25T11:17:29 - docs: add comments to complex regex patterns
