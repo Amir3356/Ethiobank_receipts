@@ -10,3 +10,4 @@ Organic update at 2025-01-07T10:35:50 - fix: correctly parse dates from Zemen ba
 Organic update at 2025-01-08T16:39:01 - test: verify receipt controller response formats
 Organic update at 2025-01-08T12:49:49 - fix: resolve memory leak in extractor
 Organic update at 2025-01-08T11:39:57 - fix: resolve memory leak in extractor
+Organic update at 2025-01-08T21:14:53 - feat: add loading spinners for extraction process
