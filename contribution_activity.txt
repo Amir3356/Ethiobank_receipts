@@ -26,3 +26,4 @@ Organic update at 2025-01-17T14:20:56 - style: improve ReceiptCard component lay
 Organic update at 2025-01-20T10:06:53 - fix: resolve memory leak in extractor
 Organic update at 2025-01-20T17:57:35 - chore: remove old python crawler scripts
 Organic update at 2025-01-20T21:02:20 - feat: handle multi-page PDF receipts
+Organic update at 2025-01-21T15:47:31 - feat: add loading spinners for extraction process
