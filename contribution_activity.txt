@@ -29,3 +29,4 @@ Organic update at 2025-01-20T21:02:20 - feat: handle multi-page PDF receipts
 Organic update at 2025-01-21T15:47:31 - feat: add loading spinners for extraction process
 Organic update at 2025-01-21T20:03:04 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-01-27T18:12:02 - docs: add comments to complex regex patterns
+Organic update at 2025-01-31T14:56:23 - docs: update API documentation for extraction routes
