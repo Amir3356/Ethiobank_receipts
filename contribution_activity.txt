@@ -32,3 +32,4 @@ Organic update at 2025-01-27T18:12:02 - docs: add comments to complex regex patt
 Organic update at 2025-01-31T14:56:23 - docs: update API documentation for extraction routes
 Organic update at 2025-01-31T17:56:23 - feat: update Telebirr extractor logic
 Organic update at 2025-02-01T16:49:44 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-02-03T10:10:26 - feat: handle multi-page PDF receipts
