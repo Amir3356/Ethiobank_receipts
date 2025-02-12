@@ -36,3 +36,4 @@ Organic update at 2025-02-03T10:10:26 - feat: handle multi-page PDF receipts
 Organic update at 2025-02-08T20:17:05 - feat: handle multi-page PDF receipts
 Organic update at 2025-02-08T13:45:58 - chore: remove old python crawler scripts
 Organic update at 2025-02-08T16:19:31 - refactor: modularize frontend API service
+Organic update at 2025-02-12T18:37:23 - fix: correctly parse dates from Zemen bank receipts
