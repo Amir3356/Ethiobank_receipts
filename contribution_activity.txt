@@ -45,3 +45,4 @@ Organic update at 2025-02-14T14:32:50 - feat: update Telebirr extractor logic
 Organic update at 2025-02-18T09:45:39 - refactor: simplify backend controller error handling
 Organic update at 2025-02-20T17:57:15 - style: update navbar aesthetics
 Organic update at 2025-02-20T10:41:13 - feat: add support for Dashen Bank receipt formats
+Organic update at 2025-02-24T12:19:10 - docs: add setup instructions for local development
