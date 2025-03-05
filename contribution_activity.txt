@@ -57,3 +57,4 @@ Organic update at 2025-03-03T09:21:57 - refactor: clean up receipt form validati
 Organic update at 2025-03-05T16:13:49 - fix: resolve edge case with blurry Telebirr screenshots
 Organic update at 2025-03-05T12:49:43 - docs: add comments to complex regex patterns
 Organic update at 2025-03-05T19:09:22 - fix: handle missing reference numbers in CBE receipts
+Organic update at 2025-03-05T09:13:21 - chore: remove old python crawler scripts
