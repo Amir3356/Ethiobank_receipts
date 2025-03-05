@@ -59,3 +59,4 @@ Organic update at 2025-03-05T12:49:43 - docs: add comments to complex regex patt
 Organic update at 2025-03-05T19:09:22 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-03-05T09:13:21 - chore: remove old python crawler scripts
 Organic update at 2025-03-05T16:30:21 - fix: correct CORS headers for API requests
+Organic update at 2025-03-05T20:41:20 - feat: add support for Dashen Bank receipt formats
