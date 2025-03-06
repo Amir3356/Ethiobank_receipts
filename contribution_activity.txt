@@ -63,3 +63,4 @@ Organic update at 2025-03-05T20:41:20 - feat: add support for Dashen Bank receip
 Organic update at 2025-03-05T12:24:54 - refactor: simplify backend controller error handling
 Organic update at 2025-03-05T10:53:02 - test: add unit tests for Awash bank extractor
 Organic update at 2025-03-05T18:21:15 - chore: update React and Vite dependencies
+Organic update at 2025-03-06T19:26:23 - refactor: modularize frontend API service
