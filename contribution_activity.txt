@@ -92,3 +92,4 @@ Organic update at 2025-04-23T16:15:55 - refactor: clean up receipt form validati
 Organic update at 2025-04-25T13:34:59 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-04-25T20:58:58 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-04-25T18:55:30 - feat: handle multi-page PDF receipts
+Organic update at 2025-04-25T12:11:01 - feat: update Telebirr extractor logic
