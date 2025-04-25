@@ -89,3 +89,4 @@ Organic update at 2025-04-17T12:12:52 - style: improve ReceiptCard component lay
 Organic update at 2025-04-21T19:05:11 - docs: add comments to complex regex patterns
 Organic update at 2025-04-21T13:55:12 - style: update navbar aesthetics
 Organic update at 2025-04-23T16:15:55 - refactor: clean up receipt form validation
+Organic update at 2025-04-25T13:34:59 - feat: add support for Dashen Bank receipt formats
