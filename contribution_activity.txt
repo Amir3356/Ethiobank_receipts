@@ -96,3 +96,4 @@ Organic update at 2025-04-25T12:11:01 - feat: update Telebirr extractor logic
 Organic update at 2025-04-25T18:04:23 - docs: add setup instructions for local development
 Organic update at 2025-04-29T21:52:48 - chore: update package-lock.json
 Organic update at 2025-04-30T15:24:20 - feat: add support for Dashen Bank receipt formats
+Organic update at 2025-04-30T17:39:06 - feat: handle multi-page PDF receipts
