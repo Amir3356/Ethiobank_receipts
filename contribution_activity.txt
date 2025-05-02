@@ -99,3 +99,4 @@ Organic update at 2025-04-30T15:24:20 - feat: add support for Dashen Bank receip
 Organic update at 2025-04-30T17:39:06 - feat: handle multi-page PDF receipts
 Organic update at 2025-04-30T21:45:48 - feat: handle multi-page PDF receipts
 Organic update at 2025-05-01T18:33:47 - feat: add support for Dashen Bank receipt formats
+Organic update at 2025-05-02T09:15:22 - feat: implement image upload parsing logic
