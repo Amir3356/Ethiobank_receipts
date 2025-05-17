@@ -111,3 +111,4 @@ Organic update at 2025-05-16T11:53:35 - docs: add comments to complex regex patt
 Organic update at 2025-05-16T16:49:47 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-05-16T16:13:30 - feat: update Telebirr extractor logic
 Organic update at 2025-05-17T15:54:00 - feat: handle multi-page PDF receipts
+Organic update at 2025-05-17T20:50:26 - style: improve ReceiptCard component layout
