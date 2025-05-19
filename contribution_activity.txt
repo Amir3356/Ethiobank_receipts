@@ -116,3 +116,4 @@ Organic update at 2025-05-19T11:34:11 - docs: add comments to complex regex patt
 Organic update at 2025-05-19T14:46:04 - feat: implement image upload parsing logic
 Organic update at 2025-05-19T19:01:35 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-05-19T17:59:07 - docs: add setup instructions for local development
+Organic update at 2025-05-19T21:43:09 - fix: handle missing reference numbers in CBE receipts
