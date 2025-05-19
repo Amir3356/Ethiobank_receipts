@@ -114,3 +114,4 @@ Organic update at 2025-05-17T15:54:00 - feat: handle multi-page PDF receipts
 Organic update at 2025-05-17T20:50:26 - style: improve ReceiptCard component layout
 Organic update at 2025-05-19T11:34:11 - docs: add comments to complex regex patterns
 Organic update at 2025-05-19T14:46:04 - feat: implement image upload parsing logic
+Organic update at 2025-05-19T19:01:35 - fix: correctly parse dates from Zemen bank receipts
