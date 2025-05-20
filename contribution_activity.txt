@@ -118,3 +118,4 @@ Organic update at 2025-05-19T19:01:35 - fix: correctly parse dates from Zemen ba
 Organic update at 2025-05-19T17:59:07 - docs: add setup instructions for local development
 Organic update at 2025-05-19T21:43:09 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-05-20T21:12:20 - refactor: clean up receipt form validation
+Organic update at 2025-05-20T17:46:32 - test: verify receipt controller response formats
