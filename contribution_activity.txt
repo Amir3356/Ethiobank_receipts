@@ -120,3 +120,4 @@ Organic update at 2025-05-19T21:43:09 - fix: handle missing reference numbers in
 Organic update at 2025-05-20T21:12:20 - refactor: clean up receipt form validation
 Organic update at 2025-05-20T17:46:32 - test: verify receipt controller response formats
 Organic update at 2025-05-23T19:03:54 - refactor: modularize frontend API service
+Organic update at 2025-05-23T13:20:00 - fix: correct CORS headers for API requests
