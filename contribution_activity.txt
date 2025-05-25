@@ -123,3 +123,4 @@ Organic update at 2025-05-23T19:03:54 - refactor: modularize frontend API servic
 Organic update at 2025-05-23T13:20:00 - fix: correct CORS headers for API requests
 Organic update at 2025-05-23T15:01:47 - refactor: clean up receipt form validation
 Organic update at 2025-05-23T21:24:55 - feat: implement image upload parsing logic
+Organic update at 2025-05-25T15:26:44 - feat: add loading spinners for extraction process
