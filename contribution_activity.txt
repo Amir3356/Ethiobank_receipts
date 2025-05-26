@@ -126,3 +126,4 @@ Organic update at 2025-05-23T21:24:55 - feat: implement image upload parsing log
 Organic update at 2025-05-25T15:26:44 - feat: add loading spinners for extraction process
 Organic update at 2025-05-25T14:48:32 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-05-26T18:51:14 - fix: resolve memory leak in extractor
+Organic update at 2025-05-26T19:21:52 - feat: add support for Dashen Bank receipt formats
