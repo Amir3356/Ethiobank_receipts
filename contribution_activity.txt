@@ -131,3 +131,4 @@ Organic update at 2025-05-28T11:23:45 - docs: add setup instructions for local d
 Organic update at 2025-05-29T20:44:00 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-05-29T15:19:36 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-05-29T13:34:28 - feat: handle multi-page PDF receipts
+Organic update at 2025-05-29T16:58:58 - test: add unit tests for Awash bank extractor
