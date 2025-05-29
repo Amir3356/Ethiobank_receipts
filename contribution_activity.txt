@@ -130,3 +130,4 @@ Organic update at 2025-05-26T19:21:52 - feat: add support for Dashen Bank receip
 Organic update at 2025-05-28T11:23:45 - docs: add setup instructions for local development
 Organic update at 2025-05-29T20:44:00 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-05-29T15:19:36 - feat: add support for Dashen Bank receipt formats
+Organic update at 2025-05-29T13:34:28 - feat: handle multi-page PDF receipts
