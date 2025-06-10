@@ -142,3 +142,4 @@ Organic update at 2025-06-04T09:32:15 - fix: correct CORS headers for API reques
 Organic update at 2025-06-09T13:58:52 - feat: add loading spinners for extraction process
 Organic update at 2025-06-09T21:03:31 - feat: implement image upload parsing logic
 Organic update at 2025-06-10T10:46:34 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-06-10T20:38:59 - docs: update API documentation for extraction routes
