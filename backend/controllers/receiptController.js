@@ -1,7 +1,7 @@
 import { validationResult } from 'express-validator';
-import Receipt from '../models/Receipt.js';
+import { getExtractor, getSupportedBanksList, cbe } from '../services/extractors.js';
 
-const SUPPORTED_BANKS = ['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele'];
+const SUPPORTED_BANKS = ['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'];
 
 export const extractReceipt = async (req, res) => {
   try {
@@ -10,28 +10,31 @@ export const extractReceipt = async (req, res) => {
       return res.status(400).json({ errors: errors.array() });
     }
 
-    const { bank, url } = req.body;
+    const { bank, url, reference, account, phone } = req.body;
+    const bankCode = bank.toLowerCase();
 
-    if (!SUPPORTED_BANKS.includes(bank.toLowerCase())) {
-      return res.status(400).json({ error: `Unsupported bank. Supported: ${SUPPORTED_BANKS.join(', ')}` });
+    let data;
+
+    if (bankCode === 'cbe' && reference && account) {
+      data = await cbe.extractCbeReceiptInfoFromFt(reference, account);
+    } else if (bankCode === 'mpesa') {
+      data = { message: 'M-Pesa verification - receipt reference received', reference };
+    } else if (bankCode === 'cbe_birr') {
+      data = { message: 'CBE Birr verification - receipt and phone received', reference, phone };
+    } else {
+      const extractor = getExtractor(bankCode);
+      if (!extractor) {
+        return res.status(400).json({ error: `Unsupported bank. Supported: ${SUPPORTED_BANKS.join(', ')}` });
+      }
+      data = await extractor(url);
     }
-
-    const receiptData = {
-      id: Date.now(),
-      bank: bank.toLowerCase(),
-      url,
-      amount: 0,
-      sender: 'Sample Sender',
-      receiver: 'Sample Receiver',
-      reference: `REF-${Date.now()}`,
-      date: new Date()
-    };
-
-    const receipt = new Receipt(receiptData);
 
     res.status(200).json({
       success: true,
-      data: receipt.toJSON()
+      data: {
+        bank: bankCode,
+        ...data
+      }
     });
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -43,26 +46,4 @@ export const getSupportedBanks = (req, res) => {
     success: true,
     data: SUPPORTED_BANKS
   });
-};
-
-export const getReceiptById = async (req, res) => {
-  try {
-    const { id } = req.params;
-
-    const receipt = new Receipt({
-      id: parseInt(id),
-      bank: 'cbe',
-      amount: 1000,
-      sender: 'John Doe',
-      receiver: 'Jane Doe',
-      reference: 'REF-123456'
-    });
-
-    res.status(200).json({
-      success: true,
-      data: receipt.toJSON()
-    });
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
 };
