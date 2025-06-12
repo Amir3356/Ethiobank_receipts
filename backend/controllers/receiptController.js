@@ -1,5 +1,8 @@
 import { validationResult } from 'express-validator';
 import { getExtractor, getSupportedBanksList, cbe } from '../services/extractors.js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const { detectBankFromUrl } = require('../../js/extractors/detect');
 
 const SUPPORTED_BANKS = ['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'];
 
@@ -11,7 +14,15 @@ export const extractReceipt = async (req, res) => {
     }
 
     const { bank, url, reference, account, phone } = req.body;
-    const bankCode = bank.toLowerCase();
+    let bankCode = bank.toLowerCase();
+
+    if (bankCode === 'auto') {
+      const input = url || reference;
+      bankCode = input ? detectBankFromUrl(input) : null;
+      if (!bankCode) {
+        return res.status(400).json({ error: 'Could not auto-detect bank from URL. Please specify the bank manually.' });
+      }
+    }
 
     let data;
 

@@ -12,7 +12,7 @@ router.post(
     body('bank')
       .notEmpty()
       .withMessage('Bank is required')
-      .isIn(['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'])
+      .isIn(['auto', 'cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'])
       .withMessage('Invalid bank'),
     oneOf([
       body('url').notEmpty().withMessage('Valid URL or receipt ID is required'),
