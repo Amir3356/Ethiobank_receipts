@@ -26,7 +26,8 @@ export const extractReceipt = async (req, res) => {
       if (!extractor) {
         return res.status(400).json({ error: `Unsupported bank. Supported: ${SUPPORTED_BANKS.join(', ')}` });
       }
-      data = await extractor(url);
+      const input = bankCode === 'tele' ? (reference || url) : url;
+      data = await extractor(input);
     }
 
     res.status(200).json({

@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import ReceiptForm from '../components/ReceiptForm.jsx';
+import ReceiptCard from '../components/ReceiptCard.jsx';
 import { extractReceipt } from '../services/api.js';
 import '../styles/Extract.css';
 
 function Extract() {
+  const [receipt, setReceipt] = useState(null);
   const [error, setError] = useState('');
 
-  const handleExtract = async ({ bank, url }) => {
+  const handleExtract = async (payload) => {
     try {
       setError('');
-      await extractReceipt(bank, url);
+      setReceipt(null);
+      const data = await extractReceipt(payload);
+      setReceipt(data);
     } catch (err) {
       setError(err.message || 'Failed to extract receipt');
     }
@@ -22,6 +26,7 @@ function Extract() {
 
       <ReceiptForm onSubmit={handleExtract} />
 
+      {receipt && <ReceiptCard receipt={receipt} />}
       {error && <div className="error-message">{error}</div>}
     </div>
   );

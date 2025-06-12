@@ -4,6 +4,8 @@ import '../styles/ReceiptForm.css';
 function ReceiptForm({ onSubmit }) {
   const [bank, setBank] = useState('');
   const [url, setUrl] = useState('');
+  const [ftNumber, setFtNumber] = useState('');
+  const [account, setAccount] = useState('');
   const [loading, setLoading] = useState(false);
 
   const banks = [
@@ -15,11 +17,23 @@ function ReceiptForm({ onSubmit }) {
     { code: 'tele', name: 'Telebirr' }
   ];
 
+  const isCbe = bank === 'cbe';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    await onSubmit({ bank, url });
+    const payload = isCbe
+      ? { bank, reference: ftNumber, account }
+      : { bank, url };
+    await onSubmit(payload);
     setLoading(false);
+  };
+
+  const handleBankChange = (e) => {
+    setBank(e.target.value);
+    setUrl('');
+    setFtNumber('');
+    setAccount('');
   };
 
   return (
@@ -29,7 +43,7 @@ function ReceiptForm({ onSubmit }) {
         <select
           id="bank"
           value={bank}
-          onChange={(e) => setBank(e.target.value)}
+          onChange={handleBankChange}
           required
         >
           <option value="">Choose a bank</option>
@@ -41,17 +55,44 @@ function ReceiptForm({ onSubmit }) {
         </select>
       </div>
 
-      <div className="form-group">
-        <label htmlFor="url">Receipt URL</label>
-        <input
-          type="url"
-          id="url"
-          value={url}
-          onChange={(e) => setUrl(e.target.value)}
-          placeholder="https://example.com/receipt.png"
-          required
-        />
-      </div>
+      {isCbe ? (
+        <>
+          <div className="form-group">
+            <label htmlFor="ftNumber">FT Number</label>
+            <input
+              type="text"
+              id="ftNumber"
+              value={ftNumber}
+              onChange={(e) => setFtNumber(e.target.value)}
+              placeholder="e.g. FT25211G11JQ"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="account">Account Number (last 8+ digits)</label>
+            <input
+              type="text"
+              id="account"
+              value={account}
+              onChange={(e) => setAccount(e.target.value)}
+              placeholder="e.g. 21827223"
+              required
+            />
+          </div>
+        </>
+      ) : (
+        <div className="form-group">
+          <label htmlFor="url">Receipt URL</label>
+          <input
+            type="url"
+            id="url"
+            value={url}
+            onChange={(e) => setUrl(e.target.value)}
+            placeholder="https://example.com/receipt.png"
+            required
+          />
+        </div>
+      )}
 
       <button type="submit" className="btn-submit" disabled={loading}>
         {loading ? 'Extracting...' : 'Extract Receipt'}
