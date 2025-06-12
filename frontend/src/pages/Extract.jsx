@@ -22,7 +22,7 @@ function Extract() {
   return (
     <div className="extract">
       <h1>Extract Receipt</h1>
-      <p>Select a bank and enter the receipt URL to extract data</p>
+      <p>Select a bank and enter the receipt URL (or ID for Telebirr) to extract data</p>
 
       <ReceiptForm onSubmit={handleExtract} />
 

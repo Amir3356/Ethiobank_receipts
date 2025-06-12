@@ -18,13 +18,16 @@ function ReceiptForm({ onSubmit }) {
   ];
 
   const isCbe = bank === 'cbe';
+  const isTele = bank === 'tele';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     const payload = isCbe
       ? { bank, reference: ftNumber, account }
-      : { bank, url };
+      : isTele
+        ? { bank, reference: url }
+        : { bank, url };
     await onSubmit(payload);
     setLoading(false);
   };
@@ -82,13 +85,19 @@ function ReceiptForm({ onSubmit }) {
         </>
       ) : (
         <div className="form-group">
-          <label htmlFor="url">Receipt URL</label>
+          <label htmlFor="url">
+            {isTele ? 'Receipt URL or ID' : 'Receipt URL'}
+          </label>
           <input
-            type="url"
+            type="text"
             id="url"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
-            placeholder="https://example.com/receipt.png"
+            placeholder={
+              isTele
+                ? 'https://... or receipt ID'
+                : 'https://example.com/receipt.png'
+            }
             required
           />
         </div>
