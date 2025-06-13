@@ -6,8 +6,9 @@ export async function extractZemenReceiptData(url) {
   try {
     const pdfPath = await downloadPdfFromUrl(url);
     const buffer = fs.readFileSync(pdfPath);
-    const data = await pdfParse(buffer);
-    const fullText = data.text.replace(/\n/g, ' ');
+    const parser = new pdfParse({ data: buffer });
+    const textResult = await parser.getText();
+    const fullText = textResult.text.replace(/\n/g, ' ');
 
     const patterns = {
       'Invoice No': /Invoice No\.?:\s*(\d+)/,

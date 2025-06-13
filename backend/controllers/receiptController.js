@@ -1,5 +1,5 @@
 import { validationResult } from 'express-validator';
-import { getExtractor, cbe } from '../services/extractors.js';
+import { getExtractor, extractCbeReceiptInfoFromFt } from '../services/extractors.js';
 import { detectBankFromUrl } from '../extractors/detect.js';
 
 const SUPPORTED_BANKS = ['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'];
@@ -46,7 +46,7 @@ export const extractReceipt = async (req, res) => {
     let data;
 
     if (bankCode === 'cbe' && reference && account) {
-      data = await cbe.extractCbeReceiptInfoFromFt(reference, account);
+      data = await extractCbeReceiptInfoFromFt(reference, account);
     } else if (bankCode === 'mpesa') {
       data = { message: 'M-Pesa verification - receipt reference received', reference };
     } else if (bankCode === 'cbe_birr') {
@@ -70,6 +70,9 @@ export const extractReceipt = async (req, res) => {
       }
     });
   } catch (error) {
+    if (error.response && error.response.status) {
+      return res.status(400).json({ error: `Failed to fetch receipt from URL (HTTP ${error.response.status}). Please check the URL and try again.` });
+    }
     res.status(500).json({ error: error.message });
   }
 };

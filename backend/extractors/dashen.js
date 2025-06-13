@@ -5,8 +5,9 @@ import { downloadPdfFromUrl } from '../download.js';
 export async function extractDashenReceiptData(url) {
   const pdfPath = await downloadPdfFromUrl(url);
   const buffer = fs.readFileSync(pdfPath);
-  const data = await pdfParse(buffer);
-  const text = data.text;
+  const parser = new pdfParse({ data: buffer });
+  const textResult = await parser.getText();
+  const text = textResult.text;
 
   const patterns = {
     sender_name: /Account Holder Name:\s*(.+?)\n/,
