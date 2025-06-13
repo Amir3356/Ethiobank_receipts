@@ -1,8 +1,8 @@
 import { validationResult } from 'express-validator';
-import { getExtractor, getSupportedBanksList, cbe } from '../services/extractors.js';
+import { getExtractor, cbe } from '../services/extractors.js';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
-const { detectBankFromUrl } = require('../../js/extractors/detect');
+const { detectBankFromUrl } = require('../extractors/detect');
 
 const SUPPORTED_BANKS = ['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'];
 

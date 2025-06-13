@@ -1,12 +1,12 @@
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 
-const cbe = require('../../js/extractors/cbe');
-const dashen = require('../../js/extractors/dashen');
-const awash = require('../../js/extractors/awash');
-const boa = require('../../js/extractors/boa');
-const zemen = require('../../js/extractors/zemen');
-const tele = require('../../js/extractors/tele');
+const cbe = require('../extractors/cbe');
+const dashen = require('../extractors/dashen');
+const awash = require('../extractors/awash');
+const boa = require('../extractors/boa');
+const zemen = require('../extractors/zemen');
+const tele = require('../extractors/tele');
 
 const EXTRACTORS = {
   cbe: cbe.extractCbeReceiptInfo,
@@ -19,10 +19,6 @@ const EXTRACTORS = {
 
 export function getExtractor(bank) {
   return EXTRACTORS[bank.toLowerCase()] || null;
-}
-
-export function getSupportedBanksList() {
-  return Object.keys(EXTRACTORS);
 }
 
 export { cbe, dashen, awash, boa, zemen, tele };
