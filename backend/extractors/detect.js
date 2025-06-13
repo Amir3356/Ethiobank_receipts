@@ -3,12 +3,10 @@ const DOMAIN_MAP = [
   { domain: 'transactioninfo.ethiotelecom.et', bank: 'tele' },
 ];
 
-function detectBankFromUrl(url) {
+export function detectBankFromUrl(url) {
   if (!url) return null;
   for (const { domain, bank } of DOMAIN_MAP) {
     if (url.includes(domain)) return bank;
   }
   return null;
 }
-
-module.exports = { detectBankFromUrl };

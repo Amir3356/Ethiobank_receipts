@@ -1,17 +1,16 @@
-const axios = require("axios");
-const fs = require("fs");
-const os = require("os");
-const path = require("path");
+import axios from 'axios';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
+import https from 'https';
 
-const agent = axios.create({
-  httpsAgent: new (require("https").Agent)({ rejectUnauthorized: false }),
+export const agent = axios.create({
+  httpsAgent: new https.Agent({ rejectUnauthorized: false }),
 });
 
-async function downloadPdfFromUrl(url) {
-  const response = await agent.get(url, { responseType: "arraybuffer" });
+export async function downloadPdfFromUrl(url) {
+  const response = await agent.get(url, { responseType: 'arraybuffer' });
   const tmpPath = path.join(os.tmpdir(), `receipt_${Date.now()}.pdf`);
   fs.writeFileSync(tmpPath, response.data);
   return tmpPath;
 }
-
-module.exports = { downloadPdfFromUrl, agent };

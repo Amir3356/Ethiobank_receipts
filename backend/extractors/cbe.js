@@ -1,8 +1,8 @@
-const pdfParse = require("pdf-parse");
-const fs = require("fs");
-const { downloadPdfFromUrl } = require("../download");
+import { PDFParse as pdfParse } from 'pdf-parse';
+import fs from 'fs';
+import { downloadPdfFromUrl } from '../download.js';
 
-async function extractCbeReceiptInfo(url) {
+export async function extractCbeReceiptInfo(url) {
   const pdfPath = await downloadPdfFromUrl(url);
   const buffer = fs.readFileSync(pdfPath);
   const data = await pdfParse(buffer);
@@ -46,15 +46,13 @@ async function extractCbeReceiptInfo(url) {
   return result;
 }
 
-function extractCbeReceiptInfoFromFt(ftNumber, accountLast8OrFull) {
-  const ft = (ftNumber || "").replace(/\s+/g, "").toUpperCase();
-  const digits = (accountLast8OrFull || "").replace(/\D/g, "");
+export function extractCbeReceiptInfoFromFt(ftNumber, accountLast8OrFull) {
+  const ft = (ftNumber || '').replace(/\s+/g, '').toUpperCase();
+  const digits = (accountLast8OrFull || '').replace(/\D/g, '');
   if (digits.length < 8) {
-    throw new Error("Account number must contain at least 8 digits");
+    throw new Error('Account number must contain at least 8 digits');
   }
   const last8 = digits.slice(-8);
   const url = `https://apps.cbe.com.et:100/?id=${ft}${last8}`;
   return extractCbeReceiptInfo(url);
 }
-
-module.exports = { extractCbeReceiptInfo, extractCbeReceiptInfoFromFt };

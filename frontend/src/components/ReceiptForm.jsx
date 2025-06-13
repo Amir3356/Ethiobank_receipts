@@ -76,7 +76,7 @@ function ReceiptForm({ onSubmit }) {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="account">Account Number (last 8+ digits)</label>
+            <label htmlFor="account">Receiver Account</label>
             <input
               type="text"
               id="account"

@@ -22,7 +22,6 @@ function Extract() {
   return (
     <div className="extract">
       <h1>Extract Receipt</h1>
-      <p>Select a bank (or "Auto Detect") and enter the receipt URL to extract data</p>
 
       <ReceiptForm onSubmit={handleExtract} />
 
