@@ -154,3 +154,4 @@ Organic update at 2025-06-28T17:28:38 - chore: update React and Vite dependencie
 Organic update at 2025-06-30T20:36:51 - docs: update API documentation for extraction routes
 Organic update at 2025-06-30T11:41:04 - feat: handle multi-page PDF receipts
 Organic update at 2025-06-30T11:53:47 - style: update navbar aesthetics
+Organic update at 2025-06-30T14:19:02 - fix: correct CORS headers for API requests
