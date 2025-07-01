@@ -160,3 +160,4 @@ Organic update at 2025-07-01T12:48:29 - test: add unit tests for Awash bank extr
 Organic update at 2025-07-01T11:43:46 - feat: add loading spinners for extraction process
 Organic update at 2025-07-01T20:14:24 - docs: add comments to complex regex patterns
 Organic update at 2025-07-01T18:07:13 - feat: add support for Dashen Bank receipt formats
+Organic update at 2025-07-01T10:00:47 - fix: correct CORS headers for API requests
