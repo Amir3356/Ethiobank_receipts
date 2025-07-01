@@ -159,3 +159,4 @@ Organic update at 2025-07-01T20:32:22 - docs: add comments to complex regex patt
 Organic update at 2025-07-01T12:48:29 - test: add unit tests for Awash bank extractor
 Organic update at 2025-07-01T11:43:46 - feat: add loading spinners for extraction process
 Organic update at 2025-07-01T20:14:24 - docs: add comments to complex regex patterns
+Organic update at 2025-07-01T18:07:13 - feat: add support for Dashen Bank receipt formats
