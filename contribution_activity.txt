@@ -158,3 +158,4 @@ Organic update at 2025-06-30T14:19:02 - fix: correct CORS headers for API reques
 Organic update at 2025-07-01T20:32:22 - docs: add comments to complex regex patterns
 Organic update at 2025-07-01T12:48:29 - test: add unit tests for Awash bank extractor
 Organic update at 2025-07-01T11:43:46 - feat: add loading spinners for extraction process
+Organic update at 2025-07-01T20:14:24 - docs: add comments to complex regex patterns
