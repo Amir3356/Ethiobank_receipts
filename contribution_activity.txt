@@ -161,3 +161,4 @@ Organic update at 2025-07-01T11:43:46 - feat: add loading spinners for extractio
 Organic update at 2025-07-01T20:14:24 - docs: add comments to complex regex patterns
 Organic update at 2025-07-01T18:07:13 - feat: add support for Dashen Bank receipt formats
 Organic update at 2025-07-01T10:00:47 - fix: correct CORS headers for API requests
+Organic update at 2025-07-02T11:42:31 - refactor: modularize frontend API service
