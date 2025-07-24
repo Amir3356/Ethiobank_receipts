@@ -172,3 +172,4 @@ Organic update at 2025-07-24T13:00:35 - test: verify receipt controller response
 Organic update at 2025-07-24T12:52:52 - chore: remove old python crawler scripts
 Organic update at 2025-07-24T09:43:55 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-07-24T11:17:56 - test: add unit tests for Awash bank extractor
+Organic update at 2025-07-24T13:15:09 - fix: handle missing reference numbers in CBE receipts
