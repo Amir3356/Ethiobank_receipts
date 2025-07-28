@@ -176,3 +176,4 @@ Organic update at 2025-07-24T13:15:09 - fix: handle missing reference numbers in
 Organic update at 2025-07-24T21:19:45 - feat: update Telebirr extractor logic
 Organic update at 2025-07-24T15:34:53 - fix: correct CORS headers for API requests
 Organic update at 2025-07-25T21:28:01 - fix: correct CORS headers for API requests
+Organic update at 2025-07-28T21:38:19 - feat: add loading spinners for extraction process
