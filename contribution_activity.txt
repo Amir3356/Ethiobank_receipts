@@ -193,3 +193,4 @@ Organic update at 2025-08-01T18:50:13 - chore: remove old python crawler scripts
 Organic update at 2025-08-03T21:38:31 - feat: update Telebirr extractor logic
 Organic update at 2025-08-03T20:41:52 - refactor: clean up receipt form validation
 Organic update at 2025-08-04T09:45:09 - style: update navbar aesthetics
+Organic update at 2025-08-04T21:24:45 - feat: implement image upload parsing logic
