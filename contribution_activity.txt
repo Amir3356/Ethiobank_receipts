@@ -210,3 +210,4 @@ Organic update at 2025-08-08T15:44:29 - refactor: clean up receipt form validati
 Organic update at 2025-08-08T17:20:56 - feat: add loading spinners for extraction process
 Organic update at 2025-08-11T18:58:51 - style: improve ReceiptCard component layout
 Organic update at 2025-08-11T19:52:18 - fix: resolve memory leak in extractor
+Organic update at 2025-08-11T17:18:59 - docs: add comments to complex regex patterns
