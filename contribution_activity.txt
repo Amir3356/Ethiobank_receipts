@@ -208,3 +208,4 @@ Organic update at 2025-08-08T13:39:21 - fix: resolve memory leak in extractor
 Organic update at 2025-08-08T14:25:04 - docs: add setup instructions for local development
 Organic update at 2025-08-08T15:44:29 - refactor: clean up receipt form validation
 Organic update at 2025-08-08T17:20:56 - feat: add loading spinners for extraction process
+Organic update at 2025-08-11T18:58:51 - style: improve ReceiptCard component layout
