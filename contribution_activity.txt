@@ -218,3 +218,4 @@ Organic update at 2025-08-15T16:00:17 - chore: update package-lock.json
 Organic update at 2025-08-15T21:02:51 - chore: remove old python crawler scripts
 Organic update at 2025-08-15T19:49:27 - chore: remove old python crawler scripts
 Organic update at 2025-08-18T19:20:22 - feat: implement image upload parsing logic
+Organic update at 2025-08-19T17:29:32 - fix: handle missing reference numbers in CBE receipts
