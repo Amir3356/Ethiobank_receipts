@@ -221,3 +221,4 @@ Organic update at 2025-08-18T19:20:22 - feat: implement image upload parsing log
 Organic update at 2025-08-19T17:29:32 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-08-19T13:54:14 - chore: update package-lock.json
 Organic update at 2025-08-21T13:49:45 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-08-22T09:07:13 - docs: add setup instructions for local development
