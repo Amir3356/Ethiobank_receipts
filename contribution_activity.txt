@@ -228,3 +228,4 @@ Organic update at 2025-08-22T14:54:58 - docs: add setup instructions for local d
 Organic update at 2025-08-22T13:26:17 - docs: add setup instructions for local development
 Organic update at 2025-08-25T09:19:58 - chore: update package-lock.json
 Organic update at 2025-08-25T20:41:39 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-08-25T17:00:03 - fix: resolve memory leak in extractor
