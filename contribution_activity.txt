@@ -241,3 +241,4 @@ Organic update at 2025-08-27T11:15:30 - chore: update React and Vite dependencie
 Organic update at 2025-08-27T12:01:26 - test: verify receipt controller response formats
 Organic update at 2025-08-28T18:23:22 - fix: correct CORS headers for API requests
 Organic update at 2025-08-28T12:12:02 - chore: remove old python crawler scripts
+Organic update at 2025-08-29T18:11:43 - docs: update API documentation for extraction routes
