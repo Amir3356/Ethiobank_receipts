@@ -243,3 +243,4 @@ Organic update at 2025-08-28T18:23:22 - fix: correct CORS headers for API reques
 Organic update at 2025-08-28T12:12:02 - chore: remove old python crawler scripts
 Organic update at 2025-08-29T18:11:43 - docs: update API documentation for extraction routes
 Organic update at 2025-08-29T20:49:36 - docs: update API documentation for extraction routes
+Organic update at 2025-08-30T17:56:26 - style: improve ReceiptCard component layout
