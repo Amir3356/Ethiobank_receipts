@@ -252,3 +252,4 @@ Organic update at 2025-09-03T11:56:12 - test: add unit tests for Awash bank extr
 Organic update at 2025-09-03T21:08:35 - feat: handle multi-page PDF receipts
 Organic update at 2025-09-03T21:31:17 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-09-03T16:37:20 - chore: remove old python crawler scripts
+Organic update at 2025-09-03T15:49:53 - docs: add comments to complex regex patterns
