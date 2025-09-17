@@ -258,3 +258,4 @@ Organic update at 2025-09-03T19:32:45 - fix: resolve edge case with blurry Teleb
 Organic update at 2025-09-05T11:34:43 - feat: handle multi-page PDF receipts
 Organic update at 2025-09-12T18:50:46 - style: improve ReceiptCard component layout
 Organic update at 2025-09-13T19:32:34 - chore: update package-lock.json
+Organic update at 2025-09-17T13:01:02 - chore: remove old python crawler scripts
