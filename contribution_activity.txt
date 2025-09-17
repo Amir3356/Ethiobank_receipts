@@ -260,3 +260,4 @@ Organic update at 2025-09-12T18:50:46 - style: improve ReceiptCard component lay
 Organic update at 2025-09-13T19:32:34 - chore: update package-lock.json
 Organic update at 2025-09-17T13:01:02 - chore: remove old python crawler scripts
 Organic update at 2025-09-17T14:55:03 - refactor: modularize frontend API service
+Organic update at 2025-09-17T14:49:00 - style: improve ReceiptCard component layout
