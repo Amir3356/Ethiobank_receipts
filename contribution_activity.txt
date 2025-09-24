@@ -270,3 +270,4 @@ Organic update at 2025-09-23T21:34:29 - feat: implement image upload parsing log
 Organic update at 2025-09-23T10:30:02 - feat: update Telebirr extractor logic
 Organic update at 2025-09-23T19:45:08 - docs: add comments to complex regex patterns
 Organic update at 2025-09-23T11:12:44 - refactor: clean up receipt form validation
+Organic update at 2025-09-24T11:20:59 - refactor: simplify backend controller error handling
