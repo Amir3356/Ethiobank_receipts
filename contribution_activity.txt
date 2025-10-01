@@ -272,3 +272,4 @@ Organic update at 2025-09-23T19:45:08 - docs: add comments to complex regex patt
 Organic update at 2025-09-23T11:12:44 - refactor: clean up receipt form validation
 Organic update at 2025-09-24T11:20:59 - refactor: simplify backend controller error handling
 Organic update at 2025-09-25T16:24:05 - docs: update API documentation for extraction routes
+Organic update at 2025-10-01T21:02:05 - feat: implement image upload parsing logic
