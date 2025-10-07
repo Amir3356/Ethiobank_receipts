@@ -274,3 +274,4 @@ Organic update at 2025-09-24T11:20:59 - refactor: simplify backend controller er
 Organic update at 2025-09-25T16:24:05 - docs: update API documentation for extraction routes
 Organic update at 2025-10-01T21:02:05 - feat: implement image upload parsing logic
 Organic update at 2025-10-05T17:09:05 - refactor: modularize frontend API service
+Organic update at 2025-10-07T21:54:05 - style: improve ReceiptCard component layout
