@@ -281,3 +281,4 @@ Organic update at 2025-10-10T16:08:14 - docs: add setup instructions for local d
 Organic update at 2025-10-10T12:52:29 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-10-13T15:01:33 - feat: handle multi-page PDF receipts
 Organic update at 2025-10-15T16:19:29 - feat: update Telebirr extractor logic
+Organic update at 2025-10-17T14:05:08 - feat: implement image upload parsing logic
