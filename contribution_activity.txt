@@ -289,3 +289,4 @@ Organic update at 2025-10-21T12:37:25 - refactor: clean up receipt form validati
 Organic update at 2025-10-21T18:26:31 - feat: add loading spinners for extraction process
 Organic update at 2025-10-21T11:29:46 - feat: handle multi-page PDF receipts
 Organic update at 2025-10-22T21:41:45 - test: verify receipt controller response formats
+Organic update at 2025-10-25T13:45:59 - feat: add support for Dashen Bank receipt formats
