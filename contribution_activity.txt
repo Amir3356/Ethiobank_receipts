@@ -293,3 +293,4 @@ Organic update at 2025-10-25T13:45:59 - feat: add support for Dashen Bank receip
 Organic update at 2025-10-25T16:40:21 - feat: add loading spinners for extraction process
 Organic update at 2025-10-26T16:27:34 - chore: update React and Vite dependencies
 Organic update at 2025-10-28T11:24:16 - feat: handle multi-page PDF receipts
+Organic update at 2025-10-28T20:52:21 - style: improve ReceiptCard component layout
