@@ -294,3 +294,4 @@ Organic update at 2025-10-25T16:40:21 - feat: add loading spinners for extractio
 Organic update at 2025-10-26T16:27:34 - chore: update React and Vite dependencies
 Organic update at 2025-10-28T11:24:16 - feat: handle multi-page PDF receipts
 Organic update at 2025-10-28T20:52:21 - style: improve ReceiptCard component layout
+Organic update at 2025-10-28T21:39:12 - chore: remove old python crawler scripts
