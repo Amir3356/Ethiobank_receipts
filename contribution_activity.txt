@@ -295,3 +295,4 @@ Organic update at 2025-10-26T16:27:34 - chore: update React and Vite dependencie
 Organic update at 2025-10-28T11:24:16 - feat: handle multi-page PDF receipts
 Organic update at 2025-10-28T20:52:21 - style: improve ReceiptCard component layout
 Organic update at 2025-10-28T21:39:12 - chore: remove old python crawler scripts
+Organic update at 2025-10-30T20:22:20 - style: update navbar aesthetics
