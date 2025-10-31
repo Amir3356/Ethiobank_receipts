@@ -297,3 +297,4 @@ Organic update at 2025-10-28T20:52:21 - style: improve ReceiptCard component lay
 Organic update at 2025-10-28T21:39:12 - chore: remove old python crawler scripts
 Organic update at 2025-10-30T20:22:20 - style: update navbar aesthetics
 Organic update at 2025-10-30T13:09:28 - style: improve ReceiptCard component layout
+Organic update at 2025-10-31T20:55:22 - docs: add setup instructions for local development
