@@ -299,3 +299,4 @@ Organic update at 2025-10-30T20:22:20 - style: update navbar aesthetics
 Organic update at 2025-10-30T13:09:28 - style: improve ReceiptCard component layout
 Organic update at 2025-10-31T20:55:22 - docs: add setup instructions for local development
 Organic update at 2025-10-31T09:52:36 - feat: implement image upload parsing logic
+Organic update at 2025-11-04T15:18:54 - docs: add setup instructions for local development
