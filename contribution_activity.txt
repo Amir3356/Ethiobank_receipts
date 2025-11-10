@@ -309,3 +309,4 @@ Organic update at 2025-11-07T20:20:42 - feat: add loading spinners for extractio
 Organic update at 2025-11-07T13:31:15 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-11-07T18:30:39 - fix: handle missing reference numbers in CBE receipts
 Organic update at 2025-11-10T15:45:59 - feat: update Telebirr extractor logic
+Organic update at 2025-11-10T16:48:25 - docs: add setup instructions for local development
