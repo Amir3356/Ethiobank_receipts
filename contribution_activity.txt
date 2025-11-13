@@ -311,3 +311,4 @@ Organic update at 2025-11-07T18:30:39 - fix: handle missing reference numbers in
 Organic update at 2025-11-10T15:45:59 - feat: update Telebirr extractor logic
 Organic update at 2025-11-10T16:48:25 - docs: add setup instructions for local development
 Organic update at 2025-11-12T18:30:10 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-11-13T19:58:36 - fix: correct CORS headers for API requests
