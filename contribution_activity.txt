@@ -319,3 +319,4 @@ Organic update at 2025-11-13T15:38:19 - refactor: clean up receipt form validati
 Organic update at 2025-11-14T10:12:48 - refactor: simplify backend controller error handling
 Organic update at 2025-11-14T18:35:10 - docs: add setup instructions for local development
 Organic update at 2025-11-14T17:19:42 - chore: update React and Vite dependencies
+Organic update at 2025-11-14T19:42:21 - fix: correctly parse dates from Zemen bank receipts
