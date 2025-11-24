@@ -320,3 +320,4 @@ Organic update at 2025-11-14T10:12:48 - refactor: simplify backend controller er
 Organic update at 2025-11-14T18:35:10 - docs: add setup instructions for local development
 Organic update at 2025-11-14T17:19:42 - chore: update React and Vite dependencies
 Organic update at 2025-11-14T19:42:21 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-11-24T09:42:34 - fix: resolve memory leak in extractor
