@@ -322,3 +322,4 @@ Organic update at 2025-11-14T17:19:42 - chore: update React and Vite dependencie
 Organic update at 2025-11-14T19:42:21 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-11-24T09:42:34 - fix: resolve memory leak in extractor
 Organic update at 2025-11-24T17:57:48 - feat: implement image upload parsing logic
+Organic update at 2025-11-25T13:26:41 - docs: add comments to complex regex patterns
