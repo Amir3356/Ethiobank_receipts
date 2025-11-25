@@ -325,3 +325,4 @@ Organic update at 2025-11-24T17:57:48 - feat: implement image upload parsing log
 Organic update at 2025-11-25T13:26:41 - docs: add comments to complex regex patterns
 Organic update at 2025-11-25T15:10:58 - feat: handle multi-page PDF receipts
 Organic update at 2025-11-25T11:20:02 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-11-25T19:59:38 - refactor: simplify backend controller error handling
