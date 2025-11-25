@@ -327,3 +327,4 @@ Organic update at 2025-11-25T15:10:58 - feat: handle multi-page PDF receipts
 Organic update at 2025-11-25T11:20:02 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-11-25T19:59:38 - refactor: simplify backend controller error handling
 Organic update at 2025-11-25T12:37:37 - docs: add setup instructions for local development
+Organic update at 2025-11-25T14:29:17 - chore: update package-lock.json
