@@ -328,3 +328,4 @@ Organic update at 2025-11-25T11:20:02 - fix: correctly parse dates from Zemen ba
 Organic update at 2025-11-25T19:59:38 - refactor: simplify backend controller error handling
 Organic update at 2025-11-25T12:37:37 - docs: add setup instructions for local development
 Organic update at 2025-11-25T14:29:17 - chore: update package-lock.json
+Organic update at 2025-11-25T15:32:58 - feat: add loading spinners for extraction process
