@@ -332,3 +332,4 @@ Organic update at 2025-11-25T15:32:58 - feat: add loading spinners for extractio
 Organic update at 2025-11-25T10:30:46 - docs: update API documentation for extraction routes
 Organic update at 2025-11-27T13:56:57 - refactor: simplify backend controller error handling
 Organic update at 2025-11-27T15:14:27 - fix: correct CORS headers for API requests
+Organic update at 2025-12-01T16:26:30 - feat: handle multi-page PDF receipts
