@@ -336,3 +336,4 @@ Organic update at 2025-12-01T16:26:30 - feat: handle multi-page PDF receipts
 Organic update at 2025-12-01T21:38:57 - refactor: clean up receipt form validation
 Organic update at 2025-12-01T19:20:29 - refactor: clean up receipt form validation
 Organic update at 2025-12-01T19:03:29 - feat: update Telebirr extractor logic
+Organic update at 2025-12-01T18:24:39 - docs: add comments to complex regex patterns
