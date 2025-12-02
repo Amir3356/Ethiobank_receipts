@@ -340,3 +340,4 @@ Organic update at 2025-12-01T18:24:39 - docs: add comments to complex regex patt
 Organic update at 2025-12-02T13:41:28 - style: improve ReceiptCard component layout
 Organic update at 2025-12-02T11:12:27 - feat: add loading spinners for extraction process
 Organic update at 2025-12-02T15:52:59 - fix: correct CORS headers for API requests
+Organic update at 2025-12-02T12:35:45 - feat: handle multi-page PDF receipts
