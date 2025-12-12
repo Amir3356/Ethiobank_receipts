@@ -352,3 +352,4 @@ Organic update at 2025-12-10T18:25:02 - fix: resolve edge case with blurry Teleb
 Organic update at 2025-12-10T20:20:10 - fix: correct CORS headers for API requests
 Organic update at 2025-12-11T19:26:01 - fix: correctly parse dates from Zemen bank receipts
 Organic update at 2025-12-12T12:58:09 - style: improve ReceiptCard component layout
+Organic update at 2025-12-12T20:11:37 - feat: implement image upload parsing logic
