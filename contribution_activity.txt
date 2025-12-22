@@ -354,3 +354,4 @@ Organic update at 2025-12-11T19:26:01 - fix: correctly parse dates from Zemen ba
 Organic update at 2025-12-12T12:58:09 - style: improve ReceiptCard component layout
 Organic update at 2025-12-12T20:11:37 - feat: implement image upload parsing logic
 Organic update at 2025-12-12T11:59:43 - feat: handle multi-page PDF receipts
+Organic update at 2025-12-22T10:34:07 - docs: add setup instructions for local development
