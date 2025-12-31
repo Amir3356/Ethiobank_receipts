@@ -367,3 +367,4 @@ Organic update at 2025-12-29T10:54:12 - docs: add setup instructions for local d
 Organic update at 2025-12-29T09:11:13 - docs: add setup instructions for local development
 Organic update at 2025-12-29T20:03:22 - feat: add loading spinners for extraction process
 Organic update at 2025-12-29T11:10:18 - refactor: modularize frontend API service
+Organic update at 2025-12-31T18:26:39 - chore: update package-lock.json
