@@ -1,0 +1,51 @@
+.receipt-card {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.receipt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #1a5276;
+  color: white;
+}
+
+.bank-badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.receipt-id {
+  opacity: 0.8;
+}
+
+.receipt-body {
+  padding: 20px;
+}
+
+.receipt-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.receipt-row:last-child {
+  border-bottom: none;
+}
+
+.receipt-row .label {
+  color: #666;
+}
+
+.receipt-row .value {
+  font-weight: 500;
+}

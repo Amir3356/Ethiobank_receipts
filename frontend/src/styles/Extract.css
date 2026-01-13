@@ -1,0 +1,33 @@
+.extract {
+  text-align: center;
+  padding: 20px;
+}
+
+.extract h1 {
+  color: #1a5276;
+  margin-bottom: 10px;
+}
+
+.extract > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.error-message {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fee;
+  color: #c00;
+  border-radius: 5px;
+  border: 1px solid #fcc;
+}
+
+.result {
+  margin-top: 40px;
+}
+
+.result h2 {
+  color: #1a5276;
+  margin-bottom: 20px;
+}
