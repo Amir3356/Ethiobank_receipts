@@ -9,17 +9,12 @@ const api = axios.create({
   }
 });
 
-export const extractReceipt = async (bank, url) => {
-  const response = await api.post('/receipts/extract', { bank, url });
+export const extractReceipt = async (payload) => {
+  const response = await api.post('/receipts/extract', payload);
   return response.data.data;
 };
 
 export const getSupportedBanks = async () => {
   const response = await api.get('/receipts/banks');
-  return response.data.data;
-};
-
-export const getReceiptById = async (id) => {
-  const response = await api.get(`/receipts/${id}`);
   return response.data.data;
 };
