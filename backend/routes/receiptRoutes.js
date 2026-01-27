@@ -15,9 +15,9 @@ router.post(
       .isIn(['cbe', 'dashen', 'awash', 'boa', 'zemen', 'tele', 'mpesa', 'cbe_birr'])
       .withMessage('Invalid bank'),
     oneOf([
-      body('url').isURL().withMessage('Valid URL is required'),
+      body('url').notEmpty().withMessage('Valid URL or receipt ID is required'),
       body('reference').notEmpty().withMessage('Reference is required when no URL'),
-    ], 'Either URL or reference is required'),
+    ], 'Either URL, receipt ID, or reference is required'),
     body('account').optional(),
     body('phone').optional(),
   ],
