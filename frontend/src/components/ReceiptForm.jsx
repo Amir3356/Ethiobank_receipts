@@ -17,6 +17,7 @@ function ReceiptForm({ onSubmit }) {
     { code: 'tele', name: 'Telebirr' }
   ];
 
+  const isAuto = bank === 'auto';
   const isCbe = bank === 'cbe';
   const isTele = bank === 'tele';
 
@@ -25,9 +26,11 @@ function ReceiptForm({ onSubmit }) {
     setLoading(true);
     const payload = isCbe
       ? { bank, reference: ftNumber, account }
-      : isTele
-        ? { bank, reference: url }
-        : { bank, url };
+      : isAuto
+        ? { bank: 'auto', url }
+        : isTele
+          ? { bank, reference: url }
+          : { bank, url };
     await onSubmit(payload);
     setLoading(false);
   };
@@ -50,6 +53,7 @@ function ReceiptForm({ onSubmit }) {
           required
         >
           <option value="">Choose a bank</option>
+          <option value="auto">Auto Detect</option>
           {banks.map((b) => (
             <option key={b.code} value={b.code}>
               {b.name}
@@ -86,7 +90,7 @@ function ReceiptForm({ onSubmit }) {
       ) : (
         <div className="form-group">
           <label htmlFor="url">
-            {isTele ? 'Receipt URL or ID' : 'Receipt URL'}
+            {isAuto ? 'Receipt URL' : isTele ? 'Receipt URL or ID' : 'Receipt URL'}
           </label>
           <input
             type="text"
@@ -94,9 +98,11 @@ function ReceiptForm({ onSubmit }) {
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             placeholder={
-              isTele
-                ? 'https://... or receipt ID'
-                : 'https://example.com/receipt.png'
+              isAuto
+                ? 'https://apps.cbe.com.et/... or https://transactioninfo.ethiotelecom.et/...'
+                : isTele
+                  ? 'https://... or receipt ID'
+                  : 'https://example.com/receipt.png'
             }
             required
           />
