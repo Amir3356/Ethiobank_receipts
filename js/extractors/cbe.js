@@ -9,22 +9,21 @@ async function extractCbeReceiptInfo(url) {
   const fullText = data.text;
 
   const patterns = {
-    customer_name: /Customer Name:\s*(.+)/,
-    branch: /Branch:\s*(.+)/,
-    region_city: /Region:\s*(.*?)\n/,
-    payment_date: /Payment Date & Time\s*([\d/:,\sAPMapm]+)/,
-    reference_no: /Reference No.*?([A-Z0-9]+)/,
-    payer: /Payer\s+([A-Z\s]+)/,
-    payer_account: /Payer\s+[A-Z\s]+\nAccount\s+([\d*]+)/,
-    receiver: /Receiver\s+([A-Z\s]+)/,
-    receiver_account: /Receiver\s+[A-Z\s]+\nAccount\s+([\d*]+)/,
-    service: /Reason \/ Type of service\s+(.+)/,
-    transferred_amount: /Transferred Amount\s+([\d,.]+) ETB/,
-    commission: /Commission or Service Charge\s+([\d,.]+) ETB/,
-    vat_on_commission: /15% VAT on Commission\s+([\d,.]+) ETB/,
-    total_debited:
-      /Total amount debited from customers account\s+([\d,.]+) ETB/,
-    amount_in_words: /Amount in Word ETB\s+(.+)/,
+    customer_name: /Customer Name[:\s]*([A-Za-z\s.]+)/,
+    branch: /Branch[:\s]*([A-Za-z\s.]+)/,
+    region_city: /Region[:\s]*([A-Za-z\s.]+)/,
+    payment_date: /Payment Date\s*(?:&|and)?\s*Time[:\s]*([\d\/,:APMapm\s]+)/i,
+    reference_no: /Reference\s*No[:\s]*(FT[A-Z0-9]+)/i,
+    payer: /Payer[:\s]*([A-Za-z\s.]+?)(?=\s*\nAccount|\s*$)/m,
+    payer_account: /Payer[:\s]*[A-Za-z\s.]+?[:\s]*\n?Account[:\s]*([\d*]+)/,
+    receiver: /Receiver[:\s]*([A-Za-z\s.]+?)(?=\s*\nAccount|\s*$)/m,
+    receiver_account: /Receiver[:\s]*[A-Za-z\s.]+?[:\s]*\n?Account[:\s]*([\d*]+)/,
+    service: /Reason\s*\/?\s*Type of service[:\s]*([A-Za-z\s]+)/i,
+    transferred_amount: /Transferred Amount[:\s]*([\d,.]+)\s*ETB/i,
+    commission: /Commission or Service Charge[:\s]*([\d,.]+)\s*ETB/i,
+    vat_on_commission: /15%\s*VAT on Commission[:\s]*([\d,.]+)\s*ETB/i,
+    total_debited: /Total amount debited from customers account[:\s]*([\d,.]+)\s*ETB/i,
+    amount_in_words: /Amount in Word\s*ETB[:\s]*([A-Za-z\s\/\d\-]+)/i,
   };
 
   const result = {};
