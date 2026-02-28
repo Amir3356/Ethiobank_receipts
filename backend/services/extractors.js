@@ -1,24 +1,21 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-
-const cbe = require('../extractors/cbe');
-const dashen = require('../extractors/dashen');
-const awash = require('../extractors/awash');
-const boa = require('../extractors/boa');
-const zemen = require('../extractors/zemen');
-const tele = require('../extractors/tele');
+import { extractCbeReceiptInfo } from '../extractors/cbe.js';
+import { extractDashenReceiptData } from '../extractors/dashen.js';
+import { extractAwashReceiptData } from '../extractors/awash.js';
+import { extractBoaReceiptData } from '../extractors/boa.js';
+import { extractZemenReceiptData } from '../extractors/zemen.js';
+import { extractTeleReceiptData } from '../extractors/tele.js';
 
 const EXTRACTORS = {
-  cbe: cbe.extractCbeReceiptInfo,
-  dashen: dashen.extractDashenReceiptData,
-  awash: awash.extractAwashReceiptData,
-  boa: boa.extractBoaReceiptData,
-  zemen: zemen.extractZemenReceiptData,
-  tele: tele.extractTeleReceiptData,
+  cbe: extractCbeReceiptInfo,
+  dashen: extractDashenReceiptData,
+  awash: extractAwashReceiptData,
+  boa: extractBoaReceiptData,
+  zemen: extractZemenReceiptData,
+  tele: extractTeleReceiptData,
 };
 
 export function getExtractor(bank) {
   return EXTRACTORS[bank.toLowerCase()] || null;
 }
 
-export { cbe, dashen, awash, boa, zemen, tele };
+export { extractCbeReceiptInfo as cbe, extractDashenReceiptData as dashen, extractAwashReceiptData as awash, extractBoaReceiptData as boa, extractZemenReceiptData as zemen, extractTeleReceiptData as tele };

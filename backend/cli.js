@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const { extractReceipt, detectBankFromUrl } = require("./index");
-const { extractCbeReceiptInfoFromFt } = require("./extractors/cbe");
+import { extractReceipt, detectBankFromUrl } from './index.js';
+import { extractCbeReceiptInfoFromFt } from './extractors/cbe.js';
 
 const args = process.argv.slice(2);
 
@@ -21,11 +21,11 @@ Examples:
 function parseArgs(argv) {
   const parsed = { positional: [] };
   for (let i = 0; i < argv.length; i++) {
-    if (argv[i] === "--ft" && i + 1 < argv.length) {
+    if (argv[i] === '--ft' && i + 1 < argv.length) {
       parsed.ft = argv[++i];
-    } else if (argv[i] === "--account" && i + 1 < argv.length) {
+    } else if (argv[i] === '--account' && i + 1 < argv.length) {
       parsed.account = argv[++i];
-    } else if (!argv[i].startsWith("--")) {
+    } else if (!argv[i].startsWith('--')) {
       parsed.positional.push(argv[i]);
     }
   }
@@ -33,7 +33,7 @@ function parseArgs(argv) {
 }
 
 function looksLikeUrl(value) {
-  return value.startsWith("http://") || value.startsWith("https://");
+  return value.startsWith('http://') || value.startsWith('https://');
 }
 
 async function main() {
@@ -48,7 +48,7 @@ async function main() {
 
     if (parsed.ft) {
       if (!parsed.account) {
-        throw new Error("--account is required when using --ft for CBE");
+        throw new Error('--account is required when using --ft for CBE');
       }
       result = await extractCbeReceiptInfoFromFt(parsed.ft, parsed.account);
     } else if (parsed.positional.length === 1 && looksLikeUrl(parsed.positional[0])) {
@@ -56,7 +56,7 @@ async function main() {
       const bank = detectBankFromUrl(url);
       if (!bank) {
         throw new Error(
-          "Could not auto-detect bank from URL. Please specify the bank: ethiobank-receipts <bank> <url>"
+          'Could not auto-detect bank from URL. Please specify the bank: ethiobank-receipts <bank> <url>'
         );
       }
       console.error(`Auto-detected bank: ${bank}`);
@@ -66,7 +66,7 @@ async function main() {
       const url = parsed.positional[1];
       if (!url) {
         throw new Error(
-          "url (or ID for tele) is required unless using --ft and --account for CBE"
+          'url (or ID for tele) is required unless using --ft and --account for CBE'
         );
       }
       result = await extractReceipt(bank, url);

@@ -1,27 +1,27 @@
-const cbe = require("./extractors/cbe");
-const dashen = require("./extractors/dashen");
-const awash = require("./extractors/awash");
-const boa = require("./extractors/boa");
-const zemen = require("./extractors/zemen");
-const tele = require("./extractors/tele");
-const { detectBankFromUrl } = require("./extractors/detect");
+import { extractCbeReceiptInfo } from './extractors/cbe.js';
+import { extractDashenReceiptData } from './extractors/dashen.js';
+import { extractAwashReceiptData } from './extractors/awash.js';
+import { extractBoaReceiptData } from './extractors/boa.js';
+import { extractZemenReceiptData } from './extractors/zemen.js';
+import { extractTeleReceiptData } from './extractors/tele.js';
+import { detectBankFromUrl } from './extractors/detect.js';
 
 const EXTRACTORS = {
-  cbe: cbe.extractCbeReceiptInfo,
-  dashen: dashen.extractDashenReceiptData,
-  awash: awash.extractAwashReceiptData,
-  boa: boa.extractBoaReceiptData,
-  zemen: zemen.extractZemenReceiptData,
-  tele: tele.extractTeleReceiptData,
+  cbe: extractCbeReceiptInfo,
+  dashen: extractDashenReceiptData,
+  awash: extractAwashReceiptData,
+  boa: extractBoaReceiptData,
+  zemen: extractZemenReceiptData,
+  tele: extractTeleReceiptData,
 };
 
-async function extractReceipt(bank, url) {
+export async function extractReceipt(bank, url) {
   bank = bank.toLowerCase();
-  if (bank === "auto") {
+  if (bank === 'auto') {
     bank = detectBankFromUrl(url);
     if (!bank) {
       throw new Error(
-        "Could not auto-detect bank from URL. Please specify the bank manually."
+        'Could not auto-detect bank from URL. Please specify the bank manually.'
       );
     }
   }
@@ -31,4 +31,10 @@ async function extractReceipt(bank, url) {
   return EXTRACTORS[bank](url);
 }
 
-module.exports = { extractReceipt, EXTRACTORS, detectBankFromUrl, cbe, dashen, awash, boa, zemen, tele };
+export { EXTRACTORS, detectBankFromUrl };
+export { extractCbeReceiptInfo as cbe } from './extractors/cbe.js';
+export { extractDashenReceiptData as dashen } from './extractors/dashen.js';
+export { extractAwashReceiptData as awash } from './extractors/awash.js';
+export { extractBoaReceiptData as boa } from './extractors/boa.js';
+export { extractZemenReceiptData as zemen } from './extractors/zemen.js';
+export { extractTeleReceiptData as tele } from './extractors/tele.js';

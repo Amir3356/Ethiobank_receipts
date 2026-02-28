@@ -1,8 +1,8 @@
-const pdfParse = require("pdf-parse");
-const fs = require("fs");
-const { downloadPdfFromUrl } = require("../download");
+import { PDFParse as pdfParse } from 'pdf-parse';
+import fs from 'fs';
+import { downloadPdfFromUrl } from '../download.js';
 
-async function extractDashenReceiptData(url) {
+export async function extractDashenReceiptData(url) {
   const pdfPath = await downloadPdfFromUrl(url);
   const buffer = fs.readFileSync(pdfPath);
   const data = await pdfParse(buffer);
@@ -43,5 +43,3 @@ async function extractDashenReceiptData(url) {
 
   return result;
 }
-
-module.exports = { extractDashenReceiptData };
