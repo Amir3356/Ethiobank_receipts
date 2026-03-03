@@ -5,8 +5,9 @@ import { downloadPdfFromUrl } from '../download.js';
 export async function extractCbeReceiptInfo(url) {
   const pdfPath = await downloadPdfFromUrl(url);
   const buffer = fs.readFileSync(pdfPath);
-  const data = await pdfParse(buffer);
-  const fullText = data.text;
+  const parser = new pdfParse({ data: buffer });
+  const textResult = await parser.getText();
+  const fullText = textResult.text;
 
   const patterns = {
     customer_name: /Customer Name[:\s]*([A-Za-z\s.]+)/,

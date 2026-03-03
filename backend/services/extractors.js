@@ -1,4 +1,4 @@
-import { extractCbeReceiptInfo } from '../extractors/cbe.js';
+import { extractCbeReceiptInfo, extractCbeReceiptInfoFromFt } from '../extractors/cbe.js';
 import { extractDashenReceiptData } from '../extractors/dashen.js';
 import { extractAwashReceiptData } from '../extractors/awash.js';
 import { extractBoaReceiptData } from '../extractors/boa.js';
@@ -18,4 +18,4 @@ export function getExtractor(bank) {
   return EXTRACTORS[bank.toLowerCase()] || null;
 }
 
-export { extractCbeReceiptInfo as cbe, extractDashenReceiptData as dashen, extractAwashReceiptData as awash, extractBoaReceiptData as boa, extractZemenReceiptData as zemen, extractTeleReceiptData as tele };
+export { extractCbeReceiptInfo as cbe, extractCbeReceiptInfoFromFt, extractDashenReceiptData as dashen, extractAwashReceiptData as awash, extractBoaReceiptData as boa, extractZemenReceiptData as zemen, extractTeleReceiptData as tele };
