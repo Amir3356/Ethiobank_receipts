@@ -90,7 +90,7 @@ function ReceiptForm({ onSubmit }) {
       ) : (
         <div className="form-group">
           <label htmlFor="url">
-            {isAuto ? 'Receipt URL' : isTele ? 'Receipt URL or ID' : 'Receipt URL'}
+            {isAuto ? 'Receipt URL' : isTele ? 'Receipt URL or Transaction number' : 'Receipt URL'}
           </label>
           <input
             type="text"
@@ -101,7 +101,7 @@ function ReceiptForm({ onSubmit }) {
               isAuto
                 ? 'https://apps.cbe.com.et/... or https://transactioninfo.ethiotelecom.et/...'
                 : isTele
-                  ? 'https://... or receipt ID'
+                  ? 'https://... or Transaction number'
                   : 'https://example.com/receipt.png'
             }
             required
