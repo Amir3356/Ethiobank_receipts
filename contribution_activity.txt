@@ -164,3 +164,44 @@ Organic update at 2025-07-01T10:00:47 - fix: correct CORS headers for API reques
 Organic update at 2025-07-02T11:42:31 - refactor: modularize frontend API service
 Organic update at 2025-07-09T15:31:00 - fix: correct CORS headers for API requests
 Organic update at 2025-07-09T16:38:13 - style: update navbar aesthetics
+Organic update at 2025-07-09T19:48:11 - refactor: simplify backend controller error handling
+Organic update at 2025-07-11T14:13:41 - chore: update React and Vite dependencies
+Organic update at 2025-07-11T17:20:36 - feat: update Telebirr extractor logic
+Organic update at 2025-07-24T20:54:35 - refactor: clean up receipt form validation
+Organic update at 2025-07-24T13:00:35 - test: verify receipt controller response formats
+Organic update at 2025-07-24T12:52:52 - chore: remove old python crawler scripts
+Organic update at 2025-07-24T09:43:55 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-07-24T11:17:56 - test: add unit tests for Awash bank extractor
+Organic update at 2025-07-24T13:15:09 - fix: handle missing reference numbers in CBE receipts
+Organic update at 2025-07-24T21:19:45 - feat: update Telebirr extractor logic
+Organic update at 2025-07-24T15:34:53 - fix: correct CORS headers for API requests
+Organic update at 2025-07-25T21:28:01 - fix: correct CORS headers for API requests
+Organic update at 2025-07-28T21:38:19 - feat: add loading spinners for extraction process
+Organic update at 2025-07-29T16:10:27 - refactor: clean up receipt form validation
+Organic update at 2025-07-31T09:35:28 - chore: update package-lock.json
+Organic update at 2025-07-31T20:25:56 - docs: update API documentation for extraction routes
+Organic update at 2025-07-31T09:50:48 - refactor: modularize frontend API service
+Organic update at 2025-07-31T18:39:54 - style: update navbar aesthetics
+Organic update at 2025-07-31T16:13:52 - test: add unit tests for Awash bank extractor
+Organic update at 2025-07-31T10:56:17 - fix: resolve memory leak in extractor
+Organic update at 2025-07-31T11:27:13 - fix: resolve memory leak in extractor
+Organic update at 2025-07-31T14:57:57 - docs: add comments to complex regex patterns
+Organic update at 2025-08-01T12:50:24 - refactor: modularize frontend API service
+Organic update at 2025-08-01T19:53:35 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-08-01T10:29:19 - docs: update API documentation for extraction routes
+Organic update at 2025-08-01T18:50:13 - chore: remove old python crawler scripts
+Organic update at 2025-08-03T21:38:31 - feat: update Telebirr extractor logic
+Organic update at 2025-08-03T20:41:52 - refactor: clean up receipt form validation
+Organic update at 2025-08-04T09:45:09 - style: update navbar aesthetics
+Organic update at 2025-08-04T21:24:45 - feat: implement image upload parsing logic
+Organic update at 2025-08-04T19:31:15 - fix: handle missing reference numbers in CBE receipts
+Organic update at 2025-08-04T18:21:13 - chore: update React and Vite dependencies
+Organic update at 2025-08-04T10:32:29 - refactor: modularize frontend API service
+Organic update at 2025-08-05T18:59:19 - test: add unit tests for Awash bank extractor
+Organic update at 2025-08-05T20:47:54 - chore: update React and Vite dependencies
+Organic update at 2025-08-07T21:14:20 - style: update navbar aesthetics
+Organic update at 2025-08-07T17:08:46 - test: add unit tests for Awash bank extractor
+Organic update at 2025-08-08T20:08:59 - docs: add setup instructions for local development
+Organic update at 2025-08-08T16:51:09 - docs: add setup instructions for local development
+Organic update at 2025-08-08T11:23:17 - fix: resolve memory leak in extractor
+Organic update at 2025-08-08T13:39:21 - fix: resolve memory leak in extractor
