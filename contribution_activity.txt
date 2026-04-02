@@ -205,3 +205,45 @@ Organic update at 2025-08-08T20:08:59 - docs: add setup instructions for local d
 Organic update at 2025-08-08T16:51:09 - docs: add setup instructions for local development
 Organic update at 2025-08-08T11:23:17 - fix: resolve memory leak in extractor
 Organic update at 2025-08-08T13:39:21 - fix: resolve memory leak in extractor
+Organic update at 2025-08-08T14:25:04 - docs: add setup instructions for local development
+Organic update at 2025-08-08T15:44:29 - refactor: clean up receipt form validation
+Organic update at 2025-08-08T17:20:56 - feat: add loading spinners for extraction process
+Organic update at 2025-08-11T18:58:51 - style: improve ReceiptCard component layout
+Organic update at 2025-08-11T19:52:18 - fix: resolve memory leak in extractor
+Organic update at 2025-08-11T17:18:59 - docs: add comments to complex regex patterns
+Organic update at 2025-08-11T17:28:11 - docs: update API documentation for extraction routes
+Organic update at 2025-08-14T17:06:55 - chore: update package-lock.json
+Organic update at 2025-08-15T10:58:19 - style: improve ReceiptCard component layout
+Organic update at 2025-08-15T16:00:17 - chore: update package-lock.json
+Organic update at 2025-08-15T21:02:51 - chore: remove old python crawler scripts
+Organic update at 2025-08-15T19:49:27 - chore: remove old python crawler scripts
+Organic update at 2025-08-18T19:20:22 - feat: implement image upload parsing logic
+Organic update at 2025-08-19T17:29:32 - fix: handle missing reference numbers in CBE receipts
+Organic update at 2025-08-19T13:54:14 - chore: update package-lock.json
+Organic update at 2025-08-21T13:49:45 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-08-22T09:07:13 - docs: add setup instructions for local development
+Organic update at 2025-08-22T13:37:10 - feat: add loading spinners for extraction process
+Organic update at 2025-08-22T14:38:41 - refactor: simplify backend controller error handling
+Organic update at 2025-08-22T14:54:58 - docs: add setup instructions for local development
+Organic update at 2025-08-22T13:26:17 - docs: add setup instructions for local development
+Organic update at 2025-08-25T09:19:58 - chore: update package-lock.json
+Organic update at 2025-08-25T20:41:39 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-08-25T17:00:03 - fix: resolve memory leak in extractor
+Organic update at 2025-08-25T17:54:23 - fix: correct CORS headers for API requests
+Organic update at 2025-08-25T15:47:54 - fix: correct CORS headers for API requests
+Organic update at 2025-08-26T17:40:55 - chore: update React and Vite dependencies
+Organic update at 2025-08-26T12:26:52 - fix: resolve memory leak in extractor
+Organic update at 2025-08-27T12:04:03 - feat: implement image upload parsing logic
+Organic update at 2025-08-27T13:52:06 - chore: update package-lock.json
+Organic update at 2025-08-27T14:38:30 - fix: correct CORS headers for API requests
+Organic update at 2025-08-27T09:20:09 - feat: implement image upload parsing logic
+Organic update at 2025-08-27T11:15:30 - chore: update React and Vite dependencies
+Organic update at 2025-08-27T12:01:26 - test: verify receipt controller response formats
+Organic update at 2025-08-28T18:23:22 - fix: correct CORS headers for API requests
+Organic update at 2025-08-28T12:12:02 - chore: remove old python crawler scripts
+Organic update at 2025-08-29T18:11:43 - docs: update API documentation for extraction routes
+Organic update at 2025-08-29T20:49:36 - docs: update API documentation for extraction routes
+Organic update at 2025-08-30T17:56:26 - style: improve ReceiptCard component layout
+Organic update at 2025-09-01T19:23:13 - docs: add setup instructions for local development
+Organic update at 2025-09-01T21:49:41 - docs: update API documentation for extraction routes
+Organic update at 2025-09-01T20:58:21 - chore: update React and Vite dependencies
