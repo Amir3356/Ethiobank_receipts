@@ -288,3 +288,44 @@ Organic update at 2025-10-21T17:11:34 - fix: resolve edge case with blurry Teleb
 Organic update at 2025-10-21T12:37:25 - refactor: clean up receipt form validation
 Organic update at 2025-10-21T18:26:31 - feat: add loading spinners for extraction process
 Organic update at 2025-10-21T11:29:46 - feat: handle multi-page PDF receipts
+Organic update at 2025-10-22T21:41:45 - test: verify receipt controller response formats
+Organic update at 2025-10-25T13:45:59 - feat: add support for Dashen Bank receipt formats
+Organic update at 2025-10-25T16:40:21 - feat: add loading spinners for extraction process
+Organic update at 2025-10-26T16:27:34 - chore: update React and Vite dependencies
+Organic update at 2025-10-28T11:24:16 - feat: handle multi-page PDF receipts
+Organic update at 2025-10-28T20:52:21 - style: improve ReceiptCard component layout
+Organic update at 2025-10-28T21:39:12 - chore: remove old python crawler scripts
+Organic update at 2025-10-30T20:22:20 - style: update navbar aesthetics
+Organic update at 2025-10-30T13:09:28 - style: improve ReceiptCard component layout
+Organic update at 2025-10-31T20:55:22 - docs: add setup instructions for local development
+Organic update at 2025-10-31T09:52:36 - feat: implement image upload parsing logic
+Organic update at 2025-11-04T15:18:54 - docs: add setup instructions for local development
+Organic update at 2025-11-05T13:06:54 - chore: update package-lock.json
+Organic update at 2025-11-05T14:29:36 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-11-06T16:45:59 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-11-06T17:57:25 - docs: add setup instructions for local development
+Organic update at 2025-11-06T11:40:24 - feat: handle multi-page PDF receipts
+Organic update at 2025-11-07T20:20:42 - feat: add loading spinners for extraction process
+Organic update at 2025-11-07T13:31:15 - fix: handle missing reference numbers in CBE receipts
+Organic update at 2025-11-07T18:30:39 - fix: handle missing reference numbers in CBE receipts
+Organic update at 2025-11-10T15:45:59 - feat: update Telebirr extractor logic
+Organic update at 2025-11-10T16:48:25 - docs: add setup instructions for local development
+Organic update at 2025-11-12T18:30:10 - fix: resolve edge case with blurry Telebirr screenshots
+Organic update at 2025-11-13T19:58:36 - fix: correct CORS headers for API requests
+Organic update at 2025-11-13T21:26:58 - feat: implement image upload parsing logic
+Organic update at 2025-11-13T17:14:43 - fix: correct CORS headers for API requests
+Organic update at 2025-11-13T20:22:41 - test: verify receipt controller response formats
+Organic update at 2025-11-13T15:38:19 - refactor: clean up receipt form validation
+Organic update at 2025-11-14T10:12:48 - refactor: simplify backend controller error handling
+Organic update at 2025-11-14T18:35:10 - docs: add setup instructions for local development
+Organic update at 2025-11-14T17:19:42 - chore: update React and Vite dependencies
+Organic update at 2025-11-14T19:42:21 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-11-24T09:42:34 - fix: resolve memory leak in extractor
+Organic update at 2025-11-24T17:57:48 - feat: implement image upload parsing logic
+Organic update at 2025-11-25T13:26:41 - docs: add comments to complex regex patterns
+Organic update at 2025-11-25T15:10:58 - feat: handle multi-page PDF receipts
+Organic update at 2025-11-25T11:20:02 - fix: correctly parse dates from Zemen bank receipts
+Organic update at 2025-11-25T19:59:38 - refactor: simplify backend controller error handling
+Organic update at 2025-11-25T12:37:37 - docs: add setup instructions for local development
+Organic update at 2025-11-25T14:29:17 - chore: update package-lock.json
+Organic update at 2025-11-25T15:32:58 - feat: add loading spinners for extraction process
