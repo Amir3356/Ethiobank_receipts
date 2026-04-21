@@ -80,3 +80,44 @@ Contribution update at 2024-04-26T09:26:40 - refactor: extract date parsing logi
 Contribution update at 2024-04-30T13:53:13 - refactor: simplify backend controller error handling
 Contribution update at 2024-05-01T14:37:40 - feat: add loading spinners for extraction process
 Contribution update at 2024-05-01T14:21:58 - chore: update package-lock.json
+Contribution update at 2024-05-01T18:43:15 - feat: add Bank of Abyssinia (BOA) receipt parser
+Contribution update at 2024-05-01T12:31:40 - feat: support Hibret Bank transaction screenshots
+Contribution update at 2024-05-01T11:21:45 - fix: correct CORS headers for API requests
+Contribution update at 2024-05-01T18:41:17 - feat: handle multi-page PDF receipts
+Contribution update at 2024-05-02T16:03:44 - docs: update API documentation for extraction routes
+Contribution update at 2024-05-02T13:36:24 - feat: update Telebirr extractor logic
+Contribution update at 2024-05-02T20:02:02 - chore: remove old python crawler scripts
+Contribution update at 2024-05-02T17:20:10 - style: improve responsive view on mobile screens
+Contribution update at 2024-05-02T10:50:20 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-02T18:28:31 - style: improve responsive view on mobile screens
+Contribution update at 2024-05-02T14:31:05 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-05-03T12:44:07 - fix: improve regex pattern for transaction reference IDs
+Contribution update at 2024-05-03T11:01:08 - feat: add loading spinners for extraction process
+Contribution update at 2024-05-03T17:34:31 - chore: remove old python crawler scripts
+Contribution update at 2024-05-03T20:20:32 - docs: add comments to complex regex patterns
+Contribution update at 2024-05-03T10:07:14 - style: improve ReceiptCard component layout
+Contribution update at 2024-05-03T20:15:43 - refactor: simplify backend controller error handling
+Contribution update at 2024-05-04T10:24:59 - test: add sample receipts test fixtures
+Contribution update at 2024-05-04T15:19:02 - fix: correct CORS headers for API requests
+Contribution update at 2024-05-06T15:47:20 - fix: handle missing reference numbers in CBE receipts
+Contribution update at 2024-05-06T15:26:35 - style: improve ReceiptCard component layout
+Contribution update at 2024-05-06T12:24:10 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-05-06T20:18:09 - feat: update Telebirr extractor logic
+Contribution update at 2024-05-08T14:39:55 - chore: update package-lock.json
+Contribution update at 2024-05-08T10:27:37 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-08T15:00:46 - fix: resolve edge case with blurry Telebirr screenshots
+Contribution update at 2024-05-08T11:09:20 - test: verify receipt controller response formats
+Contribution update at 2024-05-08T15:08:22 - refactor: simplify backend controller error handling
+Contribution update at 2024-05-08T15:08:50 - fix: resolve edge case with blurry Telebirr screenshots
+Contribution update at 2024-05-08T21:13:52 - docs: update README with supported bank formats
+Contribution update at 2024-05-09T17:45:37 - refactor: modularize frontend API service
+Contribution update at 2024-05-09T14:31:29 - refactor: simplify backend controller error handling
+Contribution update at 2024-05-09T16:29:12 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-10T10:05:55 - refactor: simplify backend controller error handling
+Contribution update at 2024-05-10T21:06:57 - test: verify receipt controller response formats
+Contribution update at 2024-05-13T19:56:36 - chore: update React and Vite dependencies
+Contribution update at 2024-05-14T21:06:48 - refactor: reorganize backend services and utils
+Contribution update at 2024-05-14T14:16:04 - style: improve ReceiptCard component layout
+Contribution update at 2024-05-14T18:04:25 - perf: optimize image preprocessing before OCR extraction
+Contribution update at 2024-05-14T10:01:06 - feat: implement image upload parsing logic
+Contribution update at 2024-05-15T18:40:12 - refactor: reorganize backend services and utils
