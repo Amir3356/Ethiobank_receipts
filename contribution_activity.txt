@@ -121,3 +121,45 @@ Contribution update at 2024-05-14T14:16:04 - style: improve ReceiptCard componen
 Contribution update at 2024-05-14T18:04:25 - perf: optimize image preprocessing before OCR extraction
 Contribution update at 2024-05-14T10:01:06 - feat: implement image upload parsing logic
 Contribution update at 2024-05-15T18:40:12 - refactor: reorganize backend services and utils
+Contribution update at 2024-05-19T09:28:52 - fix: resolve memory leak in extractor
+Contribution update at 2024-05-19T21:42:57 - feat: add Bank of Abyssinia (BOA) receipt parser
+Contribution update at 2024-05-19T10:06:19 - feat: handle multi-page PDF receipts
+Contribution update at 2024-05-19T10:05:20 - docs: update README with supported bank formats
+Contribution update at 2024-05-21T20:04:41 - test: add unit tests for Awash bank extractor
+Contribution update at 2024-05-21T11:10:47 - style: improve ReceiptCard component layout
+Contribution update at 2024-05-21T21:34:29 - refactor: reorganize backend services and utils
+Contribution update at 2024-05-22T18:15:51 - fix: handle missing reference numbers in CBE receipts
+Contribution update at 2024-05-22T21:30:00 - refactor: modularize frontend API service
+Contribution update at 2024-05-27T12:47:50 - perf: optimize image preprocessing before OCR extraction
+Contribution update at 2024-05-30T17:58:54 - refactor: clean up receipt form validation
+Contribution update at 2024-05-31T15:21:17 - test: verify receipt controller response formats
+Contribution update at 2024-05-31T10:55:52 - feat: add loading spinners for extraction process
+Contribution update at 2024-05-31T13:22:09 - docs: add setup instructions for local development
+Contribution update at 2024-05-31T15:37:14 - feat: add support for Dashen Bank receipt formats
+Contribution update at 2024-06-03T12:34:38 - fix: correctly parse dates from Zemen bank receipts
+Contribution update at 2024-06-03T20:43:53 - refactor: clean up receipt form validation
+Contribution update at 2024-06-05T10:35:55 - fix: handle missing reference numbers in CBE receipts
+Contribution update at 2024-06-06T20:40:12 - fix: resolve memory leak in extractor
+Contribution update at 2024-06-06T20:37:04 - chore: update package-lock.json
+Contribution update at 2024-06-07T20:16:58 - style: improve responsive view on mobile screens
+Contribution update at 2024-06-07T15:28:47 - docs: update API documentation for extraction routes
+Contribution update at 2024-06-07T15:26:06 - style: improve ReceiptCard component layout
+Contribution update at 2024-06-09T10:44:02 - refactor: extract date parsing logic into shared utility
+Contribution update at 2024-06-09T12:05:47 - feat: implement image upload parsing logic
+Contribution update at 2024-06-10T21:40:46 - refactor: extract date parsing logic into shared utility
+Contribution update at 2024-06-20T21:56:05 - fix: trim extra whitespace in account holder names
+Contribution update at 2024-06-21T11:12:44 - refactor: simplify backend controller error handling
+Contribution update at 2024-06-22T10:32:00 - style: improve responsive view on mobile screens
+Contribution update at 2024-06-22T20:21:57 - style: update navbar aesthetics
+Contribution update at 2024-06-23T10:14:40 - fix: improve regex pattern for transaction reference IDs
+Contribution update at 2024-06-23T11:18:46 - fix: resolve memory leak in extractor
+Contribution update at 2024-06-23T17:17:32 - feat: add loading spinners for extraction process
+Contribution update at 2024-06-25T19:47:30 - docs: update API documentation for extraction routes
+Contribution update at 2024-06-25T16:11:35 - perf: optimize image preprocessing before OCR extraction
+Contribution update at 2024-06-25T17:14:22 - feat: support Hibret Bank transaction screenshots
+Contribution update at 2024-06-25T09:43:30 - feat: support Hibret Bank transaction screenshots
+Contribution update at 2024-06-26T10:00:53 - docs: add setup instructions for local development
+Contribution update at 2024-06-26T21:09:49 - perf: optimize image preprocessing before OCR extraction
+Contribution update at 2024-06-26T21:14:02 - chore: update package-lock.json
+Contribution update at 2024-06-26T21:44:54 - feat: update Telebirr extractor logic
+Contribution update at 2024-06-27T19:58:46 - chore: update React and Vite dependencies
